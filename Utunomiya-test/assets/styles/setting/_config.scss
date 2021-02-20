@@ -1,0 +1,20 @@
+//ベース色
+$color-main: #5aafc2;
+$color-sub: #ffd931;
+
+//文字色
+$color-text: #353535;
+
+//透明度
+$opacity: 0.6;
+
+//フォント
+$font-family: 'Noto Sans JP', sans-serif;
+
+//サイズ
+$layout-width-inner: 1080px;
+$breakpoints: (
+    'sp': 'screen and (max-width: 480px)',
+    'tab': 'screen and (min-width: 480px) and (max-width: 1080px)',
+    'pc': 'screen and (min-width: 1080px)',
+);
