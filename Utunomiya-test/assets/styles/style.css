@@ -8,6 +8,19 @@ body {
   justify-content: space-between;
 }
 
+a {
+  cursor: pointer;
+}
+
+a:link,
+a:visited {
+  color: #00f;
+}
+
+a:hover {
+  color: #f03;
+}
+
 .objective {
   margin: 50px;
 }
@@ -31,17 +44,44 @@ body {
 .objective_text {
   margin-top: 10px;
   padding: 20px 15px;
-  border: 4px solid red;
+  border: 5px solid red;
 }
 .objective_right {
   width: calc(50% - 40px);
 }
 .objective_right ul {
   margin-top: 20px;
-  height: 400px;
+  height: 380px;
   padding: 10px;
   border: 2px solid #000000;
 }
 .objective_right li {
+  margin-bottom: 10px;
+}
+
+.overview {
+  margin: 50px;
+}
+.overview h3 {
+  display: inline-block;
+  padding: 5px 30px;
+  background-color: #cc9933;
+  color: #ffffff;
+  font-size: 20px;
+}
+.overview h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.overview p {
+  margin-bottom: 10px;
+}
+.overview ul {
+  width: 70%;
+  border: 5px solid red;
+  padding: 20px 20px 15px;
+}
+.overview li {
   margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */

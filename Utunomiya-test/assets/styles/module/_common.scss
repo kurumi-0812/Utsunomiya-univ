@@ -1,0 +1,21 @@
+body {
+  max-width: 1280px;
+}
+
+.c_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+    cursor: pointer;
+  }
+
+  a:link,
+  a:visited {
+    color: #00f;
+  }
+  
+  a:hover {
+    color: #f03;
+  }
