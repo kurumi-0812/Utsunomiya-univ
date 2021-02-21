@@ -1,6 +1,12 @@
 @import url("reset/reset.css");
-body {
-  max-width: 1280px;
+html {
+  font-size: 20px;
+  color: #353535;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .c_flex {
@@ -14,24 +20,24 @@ a {
 
 a:link,
 a:visited {
-  color: #00f;
+  color: #0000ff;
 }
 
 a:hover {
-  color: #f03;
+  color: #ff0000;
 }
 
 .objective {
   margin: 50px;
 }
-.objective h3 {
+.objective h2 {
   display: inline-block;
   padding: 5px 30px;
   background-color: #cc9933;
   color: #ffffff;
   font-size: 20px;
 }
-.objective h4 {
+.objective h3 {
   margin-top: 20px;
   font-size: 20px;
 }
@@ -62,26 +68,65 @@ a:hover {
 .overview {
   margin: 50px;
 }
-.overview h3 {
+.overview h2 {
   display: inline-block;
   padding: 5px 30px;
   background-color: #cc9933;
   color: #ffffff;
-  font-size: 20px;
 }
-.overview h4 {
+.overview h3 {
   margin-top: 20px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 .overview p {
   margin-bottom: 10px;
 }
 .overview ul {
   width: 70%;
-  border: 5px solid red;
+  border: 5px solid #ff0000;
   padding: 20px 20px 15px;
 }
 .overview li {
   margin-bottom: 10px;
+}
+
+.program {
+  margin: 50px;
+}
+.program h2 {
+  display: inline-block;
+  padding: 5px 30px;
+  background-color: #cc9933;
+  color: #ffffff;
+}
+.program h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.program p {
+  margin-bottom: 10px;
+}
+.program ul {
+  width: 93%;
+  border: 5px solid #ff0000;
+  padding: 20px 20px 15px;
+}
+.program li {
+  margin-bottom: 10px;
+}
+.program li h4 {
+  background-color: #bad3ff;
+  font-size: 1.2rem;
+  padding: 3px 10px;
+}
+.program li p {
+  margin: 10px 40px;
+}
+.program_item {
+  width: 70%;
+  border: 5px solid #ff0000;
+  padding: 10px 20px 15px;
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */

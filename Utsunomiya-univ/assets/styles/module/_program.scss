@@ -1,4 +1,4 @@
-.overview {
+.program {
   margin: 50px;
   h2 {
     display: inline-block;
@@ -18,12 +18,29 @@
   }
 
   ul {
-    width: 70%;
+    width: 93%;
     border: 5px solid $color-border;
     padding: 20px 20px 15px;
   }
 
   li {
     margin-bottom: 10px;
+
+    h4 {
+      background-color: $color-title-bg;
+      font-size: 1.2rem;
+      padding: 3px 10px;
+    }
+
+    p {
+      margin: 10px 40px;
+    }
+  }
+
+  &_item {
+    width: 70%;
+    border: 5px solid $color-border;
+    padding: 10px 20px 15px;
+    margin-top: 50px;
   }
 }
