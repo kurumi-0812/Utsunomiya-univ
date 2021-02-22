@@ -1,17 +1,4 @@
 .overview {
-  margin: 50px;
-  h2 {
-    display: inline-block;
-    padding: 5px 30px;
-    background-color: $color-title;
-    color: #ffffff;
-  }
-
-  h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-  }
 
   p {
     margin-bottom: 10px;
@@ -19,7 +6,6 @@
 
   ul {
     width: 70%;
-    border: 5px solid $color-border;
     padding: 20px 20px 15px;
   }
 

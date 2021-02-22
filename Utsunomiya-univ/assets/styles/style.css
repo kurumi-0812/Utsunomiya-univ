@@ -6,12 +6,43 @@ html {
 
 .container {
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 50px auto;
+}
+
+.c_title_l {
+  display: inline-block;
+  padding: 5px 30px;
+  background-color: #cc9933;
+  color: #ffffff;
+}
+
+.c_title_m {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.c_title_s01 {
+  background-color: #e6e6fa;
+  font-size: 1.2rem;
+  padding: 3px 10px;
+  margin-right: 20px;
+}
+
+.c_title_s02 {
+  background-color: #b0c4de;
+  font-size: 1.2rem;
+  padding: 3px 10px;
+  margin-right: 20px;
 }
 
 .c_flex {
   display: flex;
   justify-content: space-between;
+}
+
+.c_border {
+  border: 6px solid #ff0000;
 }
 
 a {
@@ -27,106 +58,78 @@ a:hover {
   color: #ff0000;
 }
 
-.objective {
-  margin: 50px;
-}
-.objective h2 {
-  display: inline-block;
-  padding: 5px 30px;
-  background-color: #cc9933;
-  color: #ffffff;
-  font-size: 20px;
-}
 .objective h3 {
   margin-top: 20px;
-  font-size: 20px;
 }
 .objective_left {
-  width: calc(50% - 40px);
+  width: calc(50% - 30px);
 }
 .objective_left p {
-  font-size: 16px;
+  font-size: 0.8rem;
 }
 .objective_text {
   margin-top: 10px;
-  padding: 20px 15px;
-  border: 5px solid red;
+  padding: 20px 20px;
+}
+.objective_text p {
+  font-size: 0.9rem;
 }
 .objective_right {
   width: calc(50% - 40px);
 }
 .objective_right ul {
   margin-top: 20px;
-  height: 380px;
+  min-height: 410px;
   padding: 10px;
   border: 2px solid #000000;
 }
 .objective_right li {
   margin-bottom: 10px;
 }
+.objective_right li p {
+  font-size: 0.8rem;
+}
 
-.overview {
-  margin: 50px;
-}
-.overview h2 {
-  display: inline-block;
-  padding: 5px 30px;
-  background-color: #cc9933;
-  color: #ffffff;
-}
-.overview h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 1.2rem;
-}
 .overview p {
   margin-bottom: 10px;
 }
 .overview ul {
   width: 70%;
-  border: 5px solid #ff0000;
   padding: 20px 20px 15px;
 }
 .overview li {
   margin-bottom: 10px;
 }
 
-.program {
-  margin: 50px;
-}
-.program h2 {
-  display: inline-block;
-  padding: 5px 30px;
-  background-color: #cc9933;
-  color: #ffffff;
-}
-.program h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 1.2rem;
-}
 .program p {
   margin-bottom: 10px;
 }
 .program ul {
   width: 93%;
-  border: 5px solid #ff0000;
   padding: 20px 20px 15px;
 }
 .program li {
   margin-bottom: 10px;
-}
-.program li h4 {
-  background-color: #bad3ff;
-  font-size: 1.2rem;
-  padding: 3px 10px;
 }
 .program li p {
   margin: 10px 40px;
 }
 .program_item {
   width: 70%;
-  border: 5px solid #ff0000;
   padding: 10px 20px 15px;
   margin-top: 50px;
+}
+
+.curriculum_wrapper {
+  margin-top: 20px;
+  padding: 10px;
+}
+.curriculum p {
+  margin: 25px 40px;
+}
+.curriculum ul {
+  margin-left: 100px;
+}
+.curriculum_text {
+  padding: 0 50px;
 }/*# sourceMappingURL=style.css.map */

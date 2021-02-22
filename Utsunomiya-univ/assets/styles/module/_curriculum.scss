@@ -1,0 +1,19 @@
+.curriculum {
+  &_wrapper {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  p {
+    margin: 25px 40px;
+  }
+
+  ul {
+    margin-left: 100px;
+  }
+  
+  &_text {
+    padding: 0 50px;
+  }
+  
+}
