@@ -147,9 +147,12 @@ a:hover {
 .university_kenya img {
   width: 85%;
 }
+.university_item {
+  width: 85%;
+  margin: 0 auto;
+}
 .university_kenya_table {
   margin: 0 auto;
-  width: 85%;
   border-collapse: separate;
   border-spacing: 5px;
   font-size: 0.8rem;
@@ -164,13 +167,14 @@ a:hover {
 .university_kenya_table tr:nth-child(odd) td {
   background: #dcdcdc;
 }
-.university_item {
-  margin: 0 auto;
-}
 .university_name {
-  margin: 0 auto;
-  width: 85%;
-  background-color: bisque;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a9a9a9;
   font-size: 1.2rem;
-  padding: 3px 10px;
+  padding: 0 10px 0 30px;
+  margin: 30px 3px 0px;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
