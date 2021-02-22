@@ -1,0 +1,37 @@
+.university {
+  &_place {
+    margin-top: 30px;
+    text-align: center;
+    img {
+      width: 70%;
+    }
+  }
+
+  &_kenya {
+    text-align: center;
+    img {
+      width: 85%;
+    }
+  }
+
+  &_kenya_table {
+    margin: 0 auto;
+    width: 85%;
+    border-collapse: separate;
+    border-spacing: 5px;
+    font-size: 0.8rem;
+
+    td {
+      padding: 3px;
+      background: #f5f5f5;
+    }
+
+    td:first-child {
+      width: 35%;
+    }
+
+    tr:nth-child(odd) td {
+      background: #dcdcdc;
+    }
+  }
+}

@@ -132,4 +132,35 @@ a:hover {
 }
 .curriculum_text {
   padding: 0 50px;
+}
+
+.university_place {
+  margin-top: 30px;
+  text-align: center;
+}
+.university_place img {
+  width: 70%;
+}
+.university_kenya {
+  text-align: center;
+}
+.university_kenya img {
+  width: 85%;
+}
+.university_kenya_table {
+  margin: 0 auto;
+  width: 85%;
+  border-collapse: separate;
+  border-spacing: 5px;
+  font-size: 0.8rem;
+}
+.university_kenya_table td {
+  padding: 3px;
+  background: #f5f5f5;
+}
+.university_kenya_table td:first-child {
+  width: 35%;
+}
+.university_kenya_table tr:nth-child(odd) td {
+  background: #dcdcdc;
 }/*# sourceMappingURL=style.css.map */
