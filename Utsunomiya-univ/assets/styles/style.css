@@ -219,4 +219,19 @@ a:hover {
 .information_description p {
   margin-left: 100px;
   color: red;
+}
+
+.pamphlet h3 {
+  padding: 10px;
+}
+.pamphlet_img {
+  margin: 50px;
+  text-align: center;
+}
+.pamphlet_pdf {
+  width: 50%;
+  padding: 10px 20px;
+}
+.pamphlet_pdf img {
+  margin-left: 100px;
 }/*# sourceMappingURL=style.css.map */

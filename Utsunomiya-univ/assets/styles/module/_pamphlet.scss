@@ -1,0 +1,19 @@
+.pamphlet {
+  h3 {
+    padding: 10px;
+  }
+  &_img {
+    margin: 50px;
+    text-align: center;
+  }
+
+  &_pdf {
+    width: 50%;
+    padding: 10px 20px;
+
+    img {
+      margin-left: 100px;
+
+    }
+  }
+}
