@@ -180,6 +180,9 @@ a:hover {
   font-size: 0.9rem;
   font-weight: bold;
 }
+.university_name img {
+  width: 80px;
+}
 
 .information {
   width: 95%;
