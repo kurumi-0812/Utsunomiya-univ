@@ -5,7 +5,7 @@ html {
 
 .container {
   max-width: 1100px;
-  margin: 50px auto;
+  margin: 100px auto;
 }
 
 .c_title_l {
@@ -22,14 +22,14 @@ html {
 }
 
 .c_title_s01 {
-  background-color: $color-title-bg01;
+  background-color: $color-accent01;
   font-size: 1.2rem;
   padding: 3px 10px;
   margin-right: 20px;
 }
 
 .c_title_s02 {
-  background-color: $color-title-bg02;
+  background-color: $color-accent02;
   font-size: 1.2rem;
   padding: 3px 10px;
   margin-right: 20px;

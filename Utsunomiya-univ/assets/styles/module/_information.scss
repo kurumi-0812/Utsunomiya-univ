@@ -1,0 +1,56 @@
+.information {
+  width: 95%;
+
+  &_item {
+    margin: 30px 0 30px;
+  }
+
+  &_item_table {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 100%;
+
+    td {
+      padding: 10px;
+      background: $color-accent02;
+    }
+
+    td:first-child {
+      width: 35%;
+    }
+
+    tr:nth-child(odd) td {
+      background: $color-accent01;
+    }
+  }
+
+  &_item_text {
+    p:not(:first-of-type) {
+      padding-left: 30px;
+    }
+  }
+
+  &_application {
+
+    &_text {
+      margin-left: 100px;
+
+      span {
+      margin-left: 30px;
+      color: red;
+    }
+    }
+  }
+
+  &_faq_ans {
+    margin: 30px 20px 20px 100px;
+  }
+
+  &_description {
+    p {
+      margin-left: 100px;
+      color: red;
+    }
+  }
+}

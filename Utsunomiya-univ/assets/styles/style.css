@@ -6,7 +6,7 @@ html {
 
 .container {
   max-width: 1100px;
-  margin: 50px auto;
+  margin: 100px auto;
 }
 
 .c_title_l {
@@ -179,4 +179,44 @@ a:hover {
   color: #ffffff;
   font-size: 0.9rem;
   font-weight: bold;
+}
+
+.information {
+  width: 95%;
+}
+.information_item {
+  margin: 30px 0 30px;
+}
+.information_item_table {
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 5px;
+  width: 100%;
+}
+.information_item_table td {
+  padding: 10px;
+  background: #b0c4de;
+}
+.information_item_table td:first-child {
+  width: 35%;
+}
+.information_item_table tr:nth-child(odd) td {
+  background: #e6e6fa;
+}
+.information_item_text p:not(:first-of-type) {
+  padding-left: 30px;
+}
+.information_application_text {
+  margin-left: 100px;
+}
+.information_application_text span {
+  margin-left: 30px;
+  color: red;
+}
+.information_faq_ans {
+  margin: 30px 20px 20px 100px;
+}
+.information_description p {
+  margin-left: 100px;
+  color: red;
 }/*# sourceMappingURL=style.css.map */
