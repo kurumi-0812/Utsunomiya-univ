@@ -1,0 +1,35 @@
+.report {
+  &_item {
+    padding: 10px 0 10px 10px;
+  }
+
+  &_item_table {
+    margin: 30px 10px 0 90px;
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 90%;
+    font-size: 1.1rem;
+
+    td {
+      padding: 10px;
+      background: $color-accent02;
+    }
+
+    td:first-child {
+      width: 30%;
+    }
+
+    tr:nth-child(odd) td {
+      background: $color-accent01;
+    }
+  }
+
+  &_work,
+  &_foreign_student {
+    justify-content: flex-start;
+    p {
+      margin-left: 100px;
+      color: red;
+    }
+  }
+}
