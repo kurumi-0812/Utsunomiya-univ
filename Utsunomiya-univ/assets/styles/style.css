@@ -263,4 +263,21 @@ a:hover {
 .report_work p, .report_foreign_student p {
   margin-left: 100px;
   color: red;
+}
+
+.access_img {
+  text-align: center;
+}
+.access_detail {
+  margin-left: 50px;
+}
+.access_detail h5 {
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
+.access_table td {
+  padding-right: 10px;
+}
+.access p {
+  margin: 10px;
 }/*# sourceMappingURL=style.css.map */

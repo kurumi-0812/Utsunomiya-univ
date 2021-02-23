@@ -1,0 +1,23 @@
+.access {
+  &_img {
+    text-align: center;
+  }
+
+  &_detail {
+    margin-left: 50px;
+    h5 {
+      text-decoration: underline;
+      font-size: 1.1rem;
+    }
+  }
+
+  &_table {
+    td {
+      padding-right: 10px;
+    }
+  }
+
+  p {
+    margin: 10px;
+  }
+}
