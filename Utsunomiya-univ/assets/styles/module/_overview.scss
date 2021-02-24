@@ -1,5 +1,4 @@
 .overview {
-
   p {
     margin-bottom: 10px;
   }
@@ -11,5 +10,17 @@
 
   li {
     margin-bottom: 10px;
+  }
+}
+
+@include mq($breakpoint: tab) {
+}
+
+@include mq($breakpoint: sp) {
+  .overview {
+    ul {
+      width: 80%;
+      margin: 40px auto;
+    }
   }
 }

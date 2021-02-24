@@ -4,10 +4,10 @@
   }
 
   &_detail {
-    margin-left: 50px;
+    margin: 50px 10px;
     h5 {
       text-decoration: underline;
-      font-size: 1.1rem;
+      margin-top: 20px;
     }
   }
 
@@ -19,5 +19,29 @@
 
   p {
     margin: 10px;
+  }
+}
+
+@include mq($breakpoint: tab) {
+  .access {
+    &_img {
+      text-align: center;
+
+      img {
+        width: 80%;
+      }
+    }
+  }
+}
+
+@include mq($breakpoint: sp) {
+  .access {
+    &_img {
+      text-align: center;
+
+      img {
+        width: 80%;
+      }
+    }
   }
 }

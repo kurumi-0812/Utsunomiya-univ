@@ -47,6 +47,7 @@ html {
 
 a {
   cursor: pointer;
+  word-break: break-all;
 }
 
 a:link,
@@ -58,6 +59,59 @@ a:hover {
   color: #ff0000;
 }
 
+p {
+  text-align: justify;
+}
+
+@media screen and (min-width: 520px) and (max-width: 959px) {
+  html {
+    font-size: 18px;
+  }
+
+  .container {
+    margin: 80px 30px;
+  }
+
+  .c_title_m {
+    font-size: 1rem;
+  }
+
+  .c_title_s01 {
+    background-color: #e6e6fa;
+    font-size: 1rem;
+    padding: 3px 10px;
+    margin-right: 20px;
+  }
+
+  .c_title_s02 {
+    background-color: #b0c4de;
+    font-size: 1rem;
+    padding: 3px 10px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 519px) {
+  html {
+    font-size: 18px;
+  }
+
+  .container {
+    margin: 50px 15px;
+  }
+
+  .c_title_m {
+    font-size: 1rem;
+  }
+
+  .c_title_s01 {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+
+  .c_title_s02 {
+    font-size: 1rem;
+  }
+}
 .objective h3 {
   margin-top: 20px;
 }
@@ -66,6 +120,7 @@ a:hover {
 }
 .objective_left p {
   font-size: 0.8rem;
+  text-align: left;
 }
 .objective_text {
   margin-top: 10px;
@@ -75,7 +130,7 @@ a:hover {
   font-size: 0.9rem;
 }
 .objective_right {
-  width: calc(50% - 40px);
+  width: calc(50% - 30px);
 }
 .objective_right ul {
   margin-top: 20px;
@@ -90,6 +145,18 @@ a:hover {
   font-size: 0.8rem;
 }
 
+@media screen and (max-width: 519px) {
+  .objective {
+    display: block;
+  }
+  .objective_left {
+    width: 100%;
+  }
+  .objective_right {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
 .overview p {
   margin-bottom: 10px;
 }
@@ -101,6 +168,12 @@ a:hover {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 519px) {
+  .overview ul {
+    width: 80%;
+    margin: 40px auto;
+  }
+}
 .program p {
   margin-bottom: 10px;
 }
@@ -120,6 +193,18 @@ a:hover {
   margin-top: 50px;
 }
 
+@media screen and (max-width: 519px) {
+  .program_item01 {
+    width: 100%;
+    padding: 20px 10px 15px;
+  }
+  .program_item01 p {
+    margin: 10px 20px;
+  }
+  .program_item02 {
+    width: 100%;
+  }
+}
 .curriculum_wrapper {
   margin-top: 20px;
   padding: 10px;
@@ -134,6 +219,19 @@ a:hover {
   padding: 0 50px;
 }
 
+@media screen and (min-width: 520px) and (max-width: 959px) {
+  .curriculum_text {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 519px) {
+  .curriculum ul {
+    margin-left: 20px;
+  }
+  .curriculum_text {
+    padding: 0;
+  }
+}
 .university_place {
   margin-top: 30px;
   text-align: center;
@@ -173,7 +271,6 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   background-color: #a9a9a9;
-  font-size: 1.2rem;
   padding: 0 10px 0 30px;
   margin: 30px 5px 0px;
   color: #ffffff;
@@ -184,6 +281,18 @@ a:hover {
   width: 80px;
 }
 
+@media screen and (max-width: 519px) {
+  .university_kenya {
+    width: 100%;
+  }
+  .university_items, .university_item {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .university_name img {
+    width: 60px;
+  }
+}
 .information {
   width: 95%;
 }
@@ -195,7 +304,6 @@ a:hover {
   border-collapse: separate;
   border-spacing: 5px;
   width: 100%;
-  font-size: 1.1rem;
 }
 .information_item_table td {
   padding: 10px;
@@ -207,8 +315,15 @@ a:hover {
 .information_item_table tr:nth-child(odd) td {
   background: #e6e6fa;
 }
+.information_item_table_list {
+  margin-left: 20px;
+  list-style: disc;
+}
 .information_item_text p:not(:first-of-type) {
   padding-left: 30px;
+}
+.information_application {
+  padding: 10px;
 }
 .information_application_text {
   margin-left: 100px;
@@ -217,7 +332,11 @@ a:hover {
   margin-left: 30px;
   color: red;
 }
+.information_faq {
+  padding: 10px;
+}
 .information_faq_ans {
+  padding: 10px;
   margin: 30px 20px 20px 100px;
 }
 .information_description p {
@@ -225,6 +344,11 @@ a:hover {
   color: red;
 }
 
+@media screen and (max-width: 519px) {
+  .information_faq_ans {
+    margin: 30px 20px 20px 50px;
+  }
+}
 .pamphlet h3 {
   padding: 10px;
 }
@@ -240,6 +364,28 @@ a:hover {
   margin-left: 100px;
 }
 
+@media screen and (min-width: 520px) and (max-width: 959px) {
+  .pamphlet_pdf {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  .pamphlet_pdf img {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 519px) {
+  .pamphlet_img {
+    margin: 20px;
+  }
+  .pamphlet_pdf {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .pamphlet_pdf img {
+    margin-left: 0px;
+  }
+}
 .report_item {
   padding: 10px 0 10px 10px;
 }
@@ -248,7 +394,6 @@ a:hover {
   border-collapse: separate;
   border-spacing: 5px;
   width: 90%;
-  font-size: 1.1rem;
 }
 .report_item_table td {
   padding: 10px;
@@ -260,27 +405,52 @@ a:hover {
 .report_item_table tr:nth-child(odd) td {
   background: #e6e6fa;
 }
-.report_work, .report_foreign_student {
-  justify-content: flex-start;
-}
-.report_work p, .report_foreign_student p {
-  margin-left: 100px;
+.report_work span, .report_foreign_student span {
+  margin-left: 50px;
   color: red;
 }
 
+@media screen and (min-width: 520px) and (max-width: 959px) {
+  .report_item_table {
+    margin: 30px 10px 0 30px;
+  }
+}
+@media screen and (max-width: 519px) {
+  .report_item_table {
+    width: 100%;
+    margin: 30px 0;
+  }
+}
 .access_img {
   text-align: center;
 }
 .access_detail {
-  margin-left: 50px;
+  margin: 50px 10px;
 }
 .access_detail h5 {
   text-decoration: underline;
-  font-size: 1.1rem;
+  margin-top: 20px;
 }
 .access_table td {
   padding-right: 10px;
 }
 .access p {
   margin: 10px;
+}
+
+@media screen and (min-width: 520px) and (max-width: 959px) {
+  .access_img {
+    text-align: center;
+  }
+  .access_img img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 519px) {
+  .access_img {
+    text-align: center;
+  }
+  .access_img img {
+    width: 80%;
+  }
 }/*# sourceMappingURL=style.css.map */

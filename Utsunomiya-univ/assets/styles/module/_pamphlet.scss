@@ -13,7 +13,39 @@
 
     img {
       margin-left: 100px;
+    }
+  }
+}
 
+@include mq($breakpoint: tab) {
+  .pamphlet {
+
+    &_pdf {
+      width: 80%;
+      margin: 0 auto;
+      padding: 10px 20px;
+
+      img {
+        margin-left: 50px;
+      }
+    }
+  }
+}
+
+@include mq($breakpoint: sp) {
+  .pamphlet {
+   
+    &_img {
+      margin: 20px;
+    }
+
+    &_pdf {
+      width: 100%;
+      padding: 10px 20px;
+
+      img {
+        margin-left: 0px;
+      }
     }
   }
 }

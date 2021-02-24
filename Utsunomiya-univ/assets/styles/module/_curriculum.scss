@@ -11,9 +11,28 @@
   ul {
     margin-left: 100px;
   }
-  
+
   &_text {
     padding: 0 50px;
   }
-  
+}
+
+@include mq($breakpoint: tab) {
+  .curriculum {
+    &_text {
+      padding: 0;
+    }
+  }
+}
+
+@include mq($breakpoint: sp) {
+  .curriculum {
+    ul {
+      margin-left: 20px;
+    }
+
+    &_text {
+      padding: 0;
+    }
+  }
 }

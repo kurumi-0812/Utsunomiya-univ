@@ -50,7 +50,6 @@
     justify-content: space-between;
     align-items: center;
     background-color: #a9a9a9;
-    font-size: 1.2rem;
     padding: 0 10px 0 30px;
     margin: 30px 5px 0px;
     color: #ffffff;
@@ -59,6 +58,29 @@
 
     img {
       width: 80px;
+    }
+  }
+}
+
+@include mq($breakpoint: tab) {
+}
+
+@include mq($breakpoint: sp) {
+  .university {
+    &_kenya {
+      width: 100%;
+    }
+
+    &_items,
+    &_item {
+      width: 100%;
+      margin: 30px auto;
+    }
+
+    &_name {
+      img {
+        width: 60px;
+      }
     }
   }
 }

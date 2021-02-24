@@ -8,6 +8,7 @@
 
     p {
       font-size: 0.8rem;
+      text-align: left;   
     }
   }
 
@@ -21,7 +22,7 @@
   }
 
   &_right {
-    width: calc(50% - 40px);
+    width: calc(50% - 30px);
 
     ul {
       margin-top: 20px;
@@ -36,6 +37,25 @@
       p {
         font-size: 0.8rem;
       }
+    }
+  }
+}
+
+@include mq($breakpoint: tab) {
+  
+}
+
+@include mq($breakpoint: sp) {
+  .objective {
+    display: block;
+
+    &_left {
+      width: 100%;
+    }
+
+    &_right {
+      width: 100%;
+      margin-top: 30px;
     }
   }
 }

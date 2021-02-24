@@ -8,7 +8,6 @@
     border-collapse: separate;
     border-spacing: 5px;
     width: 90%;
-    font-size: 1.1rem;
 
     td {
       padding: 10px;
@@ -26,10 +25,26 @@
 
   &_work,
   &_foreign_student {
-    justify-content: flex-start;
-    p {
-      margin-left: 100px;
+    span {
+      margin-left: 50px;
       color: red;
+    }
+  }
+}
+
+@include mq($breakpoint: tab) {
+  .report {
+    &_item_table {
+      margin: 30px 10px 0 30px;
+    }
+  }
+}
+
+@include mq($breakpoint: sp) {
+  .report {
+    &_item_table {
+      width: 100%;
+      margin: 30px 0;
     }
   }
 }

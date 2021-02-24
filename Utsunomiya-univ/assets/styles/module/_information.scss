@@ -10,7 +10,6 @@
     border-collapse: separate;
     border-spacing: 5px;
     width: 100%;
-    font-size: 1.1rem;
 
     td {
       padding: 10px;
@@ -24,6 +23,11 @@
     tr:nth-child(odd) td {
       background: $color-accent01;
     }
+
+    &_list {
+      margin-left: 20px;
+      list-style: disc;
+    }
   }
 
   &_item_text {
@@ -33,25 +37,41 @@
   }
 
   &_application {
-
+    padding: 10px;
     &_text {
       margin-left: 100px;
 
       span {
-      margin-left: 30px;
-      color: red;
-    }
+        margin-left: 30px;
+        color: red;
+      }
     }
   }
 
-  &_faq_ans {
-    margin: 30px 20px 20px 100px;
+  &_faq {
+    padding: 10px;
+
+    &_ans {
+      padding: 10px;
+      margin: 30px 20px 20px 100px;
+    }
   }
 
   &_description {
     p {
       margin-left: 100px;
       color: red;
+    }
+  }
+}
+
+@include mq($breakpoint: tab) {
+}
+
+@include mq($breakpoint: sp) {
+  .information {
+    &_faq_ans {
+      margin: 30px 20px 20px 50px;
     }
   }
 }
