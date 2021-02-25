@@ -146,6 +146,9 @@ p {
   background-color: #5a79ba;
   margin-right: 5px;
   padding: 10px;
+}
+.header_area_lang a {
+  text-decoration: none;
   color: #ffffff;
 }
 .header_nav ul {
@@ -157,15 +160,7 @@ p {
   border: 3px solid #949495;
   background-color: #dddcd6;
   text-align: center;
-}
-.header_nav li:nth-child(1),
-.header_nav :nth-child(2),
-.header_nav :nth-child(3),
-.header_nav :nth-child(4),
-.header_nav :nth-child(7),
-.header_nav :nth-child(8),
-.header_nav :nth-child(9) {
-  line-height: 55px;
+  display: table;
 }
 .header_nav li + li {
   border-left: none;
@@ -173,7 +168,8 @@ p {
 .header_nav a {
   text-decoration: none;
   color: black;
-  display: inline-block;
+  display: table-cell;
+  vertical-align: middle;
 }
 .header_logo {
   justify-content: space-between;
