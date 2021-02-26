@@ -394,59 +394,59 @@ p {
     width: 60px;
   }
 }
-.information {
+.admission {
   width: 95%;
 }
-.information_item {
+.admission_item {
   margin: 30px 0 30px;
 }
-.information_item_table {
+.admission_item_table {
   margin: 0 auto;
   border-collapse: separate;
   border-spacing: 5px;
   width: 100%;
 }
-.information_item_table td {
+.admission_item_table td {
   padding: 10px;
   background: #b0c4de;
 }
-.information_item_table td:first-child {
+.admission_item_table td:first-child {
   width: 35%;
 }
-.information_item_table tr:nth-child(odd) td {
+.admission_item_table tr:nth-child(odd) td {
   background: #e6e6fa;
 }
-.information_item_table_list {
+.admission_item_table_list {
   margin-left: 20px;
   list-style: disc;
 }
-.information_item_text p:not(:first-of-type) {
+.admission_item_text p:not(:first-of-type) {
   padding-left: 30px;
 }
-.information_application {
+.admission_application {
   padding: 10px;
 }
-.information_application_text {
+.admission_application_text {
   margin-left: 100px;
 }
-.information_application_text span {
+.admission_application_text span {
   margin-left: 30px;
   color: red;
 }
-.information_faq {
+.admission_faq {
   padding: 10px;
 }
-.information_faq_ans {
+.admission_faq_ans {
   padding: 10px;
   margin: 30px 20px 20px 100px;
 }
-.information_description p {
+.admission_description p {
   margin-left: 100px;
   color: red;
 }
 
 @media screen and (max-width: 519px) {
-  .information_faq_ans {
+  .admission_faq_ans {
     margin: 30px 20px 20px 50px;
   }
 }
