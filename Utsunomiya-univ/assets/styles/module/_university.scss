@@ -65,8 +65,9 @@
 .university-english {
   &_img {
     justify-content: space-between;
+    margin-top: 50px;
     &_partner {
-      width: calc(50% - 30px);
+      width: calc(50% - 10px);
       margin-top: 50px;
 
       img {

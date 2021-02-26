@@ -428,9 +428,10 @@ p {
 
 .university-english_img {
   justify-content: space-between;
+  margin-top: 50px;
 }
 .university-english_img_partner {
-  width: calc(50% - 30px);
+  width: calc(50% - 10px);
   margin-top: 50px;
 }
 .university-english_img_partner img {
