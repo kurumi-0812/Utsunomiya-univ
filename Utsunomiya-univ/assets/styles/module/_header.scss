@@ -74,7 +74,7 @@
   &_logo {
     justify-content: space-between;
     height: 280px;
-    padding: 60px;
+    padding: 50px 70px;
     background-color: #eae5e3;
 
     img {
@@ -85,6 +85,99 @@
       width: 35%;
       margin-top: 30px;
       font-size: 1.2rem;
+    }
+  }
+}
+
+.header-english {
+  &_list {
+    font-size: 0.5rem;
+  }
+
+  h2 {
+    width: 40%;
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+}
+
+@include mq($breakpoint: tab) {
+  .header {
+    &_area {
+      &_name {
+        font-size: 0.7rem;
+      }
+
+      &_lang {
+        height: 40px;
+        font-size: 0.6rem;
+      }
+    }
+    &_logo {
+      height: 250px;
+
+      img {
+        width: 200px;
+      }
+
+      h2 {
+        width: 45%;
+        margin-top: 30px;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .header-english {
+    &_area {
+      &_name {
+        font-size: 0.6rem;
+      }
+    }
+
+    h2 {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@include mq($breakpoint: sp) {
+  .header {
+    &_area {
+      &_name {
+        margin: auto 0 5px 10px;
+        font-size: 0.6rem;
+      }
+
+      &_lang {
+        height: 35px;
+        font-size: 0.5rem;
+      }
+    }
+    &_logo {
+      height: 200px;
+
+      img {
+        width: 150px;
+      }
+
+      h2 {
+        width: 50%;
+        margin-top: 10px;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .header-english {
+    &_area {
+      &_name {
+        font-size: 0.6rem;
+      }
+    }
+
+    h2 {
+      font-size: 0.8rem;
     }
   }
 }

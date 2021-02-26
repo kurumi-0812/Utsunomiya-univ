@@ -32,6 +32,12 @@
   }
 }
 
+.report-english {
+  &_list {
+    margin-left: 90px;
+  }
+}
+
 @include mq($breakpoint: tab) {
   .report {
     &_item_table {

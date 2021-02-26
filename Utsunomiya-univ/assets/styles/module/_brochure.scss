@@ -1,4 +1,4 @@
-.pamphlet {
+.brochure {
   h3 {
     padding: 10px;
   }
@@ -18,7 +18,7 @@
 }
 
 @include mq($breakpoint: tab) {
-  .pamphlet {
+  .brochure {
 
     &_pdf {
       width: 80%;
@@ -33,7 +33,7 @@
 }
 
 @include mq($breakpoint: sp) {
-  .pamphlet {
+  .brochure {
    
     &_img {
       margin: 20px;

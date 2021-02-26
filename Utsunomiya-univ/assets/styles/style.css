@@ -178,7 +178,7 @@ p {
 .header_logo {
   justify-content: space-between;
   height: 280px;
-  padding: 60px;
+  padding: 50px 70px;
   background-color: #eae5e3;
 }
 .header_logo img {
@@ -190,6 +190,70 @@ p {
   font-size: 1.2rem;
 }
 
+.header-english_list {
+  font-size: 0.5rem;
+}
+.header-english h2 {
+  width: 40%;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 520px) and (max-width: 959px) {
+  .header_area_name {
+    font-size: 0.7rem;
+  }
+  .header_area_lang {
+    height: 40px;
+    font-size: 0.6rem;
+  }
+  .header_logo {
+    height: 250px;
+  }
+  .header_logo img {
+    width: 200px;
+  }
+  .header_logo h2 {
+    width: 45%;
+    margin-top: 30px;
+    font-size: 1rem;
+  }
+
+  .header-english_area_name {
+    font-size: 0.6rem;
+  }
+  .header-english h2 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 519px) {
+  .header_area_name {
+    margin: auto 0 5px 10px;
+    font-size: 0.6rem;
+  }
+  .header_area_lang {
+    height: 35px;
+    font-size: 0.5rem;
+  }
+  .header_logo {
+    height: 200px;
+  }
+  .header_logo img {
+    width: 150px;
+  }
+  .header_logo h2 {
+    width: 50%;
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
+
+  .header-english_area_name {
+    font-size: 0.6rem;
+  }
+  .header-english h2 {
+    font-size: 0.8rem;
+  }
+}
 .objective {
   justify-content: space-between;
 }
@@ -238,19 +302,19 @@ p {
     margin-top: 30px;
   }
 }
-.overview p {
+.summary p {
   margin-bottom: 10px;
 }
-.overview ul {
+.summary ul {
   width: 70%;
   padding: 20px 20px 15px;
 }
-.overview li {
+.summary li {
   margin-bottom: 10px;
 }
 
 @media screen and (max-width: 519px) {
-  .overview ul {
+  .summary ul {
     width: 80%;
     margin: 40px auto;
   }
@@ -450,40 +514,40 @@ p {
     margin: 30px 20px 20px 50px;
   }
 }
-.pamphlet h3 {
+.brochure h3 {
   padding: 10px;
 }
-.pamphlet_img {
+.brochure_img {
   margin: 50px;
   text-align: center;
 }
-.pamphlet_pdf {
+.brochure_pdf {
   width: 50%;
   padding: 10px 20px;
 }
-.pamphlet_pdf img {
+.brochure_pdf img {
   margin-left: 100px;
 }
 
 @media screen and (min-width: 520px) and (max-width: 959px) {
-  .pamphlet_pdf {
+  .brochure_pdf {
     width: 80%;
     margin: 0 auto;
     padding: 10px 20px;
   }
-  .pamphlet_pdf img {
+  .brochure_pdf img {
     margin-left: 50px;
   }
 }
 @media screen and (max-width: 519px) {
-  .pamphlet_img {
+  .brochure_img {
     margin: 20px;
   }
-  .pamphlet_pdf {
+  .brochure_pdf {
     width: 100%;
     padding: 10px 20px;
   }
-  .pamphlet_pdf img {
+  .brochure_pdf img {
     margin-left: 0px;
   }
 }
@@ -509,6 +573,10 @@ p {
 .report_work span, .report_foreign_student span {
   margin-left: 50px;
   color: red;
+}
+
+.report-english_list {
+  margin-left: 90px;
 }
 
 @media screen and (min-width: 520px) and (max-width: 959px) {

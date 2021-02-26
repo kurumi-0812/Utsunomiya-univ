@@ -1,4 +1,4 @@
-.overview {
+.summary {
   p {
     margin-bottom: 10px;
   }
@@ -17,7 +17,7 @@
 }
 
 @include mq($breakpoint: sp) {
-  .overview {
+  .summary {
     ul {
       width: 80%;
       margin: 40px auto;
