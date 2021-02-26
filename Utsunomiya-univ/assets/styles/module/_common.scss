@@ -61,53 +61,59 @@ p {
   text-align: justify;
 }
 
+.english {
+  p {
+    text-align: left;
+  }
+}
+
 @include mq($breakpoint: tab) {
   html {
-  font-size: 18px;
-}
+    font-size: 18px;
+  }
 
-.container {
-  margin: 80px 30px;
-}
+  .container {
+    margin: 80px 30px;
+  }
 
-.c_title_m {
-  font-size: 1.0rem;
-}
+  .c_title_m {
+    font-size: 1rem;
+  }
 
-.c_title_s01 {
-  background-color: $color-accent01;
-  font-size: 1.0rem;
-  padding: 3px 10px;
-  margin-right: 20px;
-}
+  .c_title_s01 {
+    background-color: $color-accent01;
+    font-size: 1rem;
+    padding: 3px 10px;
+    margin-right: 20px;
+  }
 
-.c_title_s02 {
-  background-color: $color-accent02;
-  font-size: 1.0rem;
-  padding: 3px 10px;
-  margin-right: 20px;
-}
+  .c_title_s02 {
+    background-color: $color-accent02;
+    font-size: 1rem;
+    padding: 3px 10px;
+    margin-right: 20px;
+  }
 }
 
 @include mq($breakpoint: sp) {
   html {
-  font-size: 18px;
+    font-size: 18px;
   }
 
   .container {
-  margin: 50px 15px;
-}
+    margin: 50px 15px;
+  }
 
-.c_title_m {
-  font-size: 1.0rem;
-}
+  .c_title_m {
+    font-size: 1rem;
+  }
 
-.c_title_s01 {
-  font-size: 1.0rem;
-  margin-right: 10px;
-}
+  .c_title_s01 {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
 
-.c_title_s02 {
-  font-size: 1.0rem;
-}
+  .c_title_s02 {
+    font-size: 1rem;
+  }
 }

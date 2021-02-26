@@ -7,7 +7,7 @@
     }
   }
 
-  &_kenya {
+  &_partner {
     width: 90%;
     margin: 0 auto;
 
@@ -18,7 +18,7 @@
     }
   }
 
-  &_kenya_table,
+  &_partner_table,
   &_item_table {
     margin: 0 auto;
     border-collapse: separate;
@@ -59,6 +59,32 @@
     img {
       width: 80px;
     }
+  }
+}
+
+.university-english {
+  &_img {
+    justify-content: space-between;
+    &_partner {
+      width: calc(50% - 30px);
+      margin-top: 50px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &_japan {
+      width: calc(50% - 30px);
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  span {
+    color: red;
   }
 }
 

@@ -62,6 +62,10 @@ p {
   text-align: justify;
 }
 
+.english p {
+  text-align: left;
+}
+
 @media screen and (min-width: 520px) and (max-width: 959px) {
   html {
     font-size: 18px;
@@ -316,28 +320,28 @@ p {
 .university_place img {
   width: 70%;
 }
-.university_kenya {
+.university_partner {
   width: 90%;
   margin: 0 auto;
 }
-.university_kenya_img img {
+.university_partner_img img {
   width: 100%;
 }
-.university_kenya_table, .university_item_table {
+.university_partner_table, .university_item_table {
   margin: 0 auto;
   border-collapse: separate;
   border-spacing: 5px;
   font-size: 0.8rem;
   width: 100%;
 }
-.university_kenya_table td, .university_item_table td {
+.university_partner_table td, .university_item_table td {
   padding: 3px;
   background: #f5f5f5;
 }
-.university_kenya_table td:first-child, .university_item_table td:first-child {
+.university_partner_table td:first-child, .university_item_table td:first-child {
   width: 35%;
 }
-.university_kenya_table tr:nth-child(odd) td, .university_item_table tr:nth-child(odd) td {
+.university_partner_table tr:nth-child(odd) td, .university_item_table tr:nth-child(odd) td {
   background: #dcdcdc;
 }
 .university_items, .university_item {
@@ -356,6 +360,26 @@ p {
 }
 .university_name img {
   width: 80px;
+}
+
+.university-english_img {
+  justify-content: space-between;
+}
+.university-english_img_partner {
+  width: calc(50% - 30px);
+  margin-top: 50px;
+}
+.university-english_img_partner img {
+  width: 100%;
+}
+.university-english_img_japan {
+  width: calc(50% - 30px);
+}
+.university-english_img_japan img {
+  width: 100%;
+}
+.university-english span {
+  color: red;
 }
 
 @media screen and (max-width: 519px) {
