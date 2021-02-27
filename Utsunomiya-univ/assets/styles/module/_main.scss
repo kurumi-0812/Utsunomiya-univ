@@ -9,7 +9,7 @@
 
     p {
       font-size: 0.8rem;
-      text-align: left;   
+      text-align: left;
     }
   }
 
@@ -43,7 +43,6 @@
 }
 
 @include mq($breakpoint: tab) {
-  
 }
 
 @include mq($breakpoint: sp) {
