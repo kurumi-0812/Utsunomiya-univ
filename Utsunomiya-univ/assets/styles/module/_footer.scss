@@ -1,0 +1,181 @@
+.footer{
+  background-position: center top -315px;
+
+  .bg-black{
+    background: #282827;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  &_area {
+
+    img {
+      width: 60px;
+    }
+
+  }
+
+  .banners{
+    max-width: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 80px 0 80px;
+
+    .banner{
+      width: 20%;
+
+      a {
+        display: block;
+        margin: 5px;
+        text-align: center;
+        color: #fff;
+
+        .img{
+          background-color: #fff;
+          margin-bottom: 8px;
+          box-shadow: 4px 4px 4px rgb(0, 0, 0 / 10%);
+        }
+
+        .title{
+          font-size: .70rem;
+          line-height: 1.4em;
+          font-weight: 700;
+
+          &-bottom{
+            font-size: .70rem;
+          }
+        }
+      }
+    }
+
+    .img-fluid{
+      max-width: 100%;
+      height: auto;
+    }
+
+  }
+
+  .bottom{
+    justify-content: space-between;
+
+    &_left {
+
+      .logo{
+        margin-bottom: 3%;
+
+        img{
+          width: 125px;
+        }
+
+      }
+
+      .addr{
+        font-size: 0.6em;
+      }
+
+    }
+
+    &_right {
+      width: 500px;
+
+      nav#nav-footer{
+        margin-top: 49px;
+        margin-bottom: 10px;
+        text-align: right;
+        font-size: 0.7rem;
+
+        ul{
+          justify-content: flex-end;
+
+          li a {
+            padding-left: 12px;
+            color: #353535;
+
+            &:before{
+              content: "\f0da";
+              font-family: FontAwesome;
+              font-weight: 900;
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+    }
+
+    .copyright{
+      text-align: right;
+      font-size: 0.6em;
+
+      br{
+        display: none;
+      }
+    }
+  }
+}
+@include mq($breakpoint: tab) {
+  .footer{
+    .banners{
+      .banner{
+        max-width: none;
+        width: 33.3333%;
+        margin: 0;
+      }
+    }
+    &_right{
+
+      .copyright{
+        text-align: left;
+        br{
+          display: unset;
+        }
+      }
+    }
+  }
+}
+
+@include mq($breakpoint: sp) {
+  .footer{
+    .banners{
+      .banner{
+        max-width: 280px;
+        margin: auto;
+        width: 100%;
+      }
+    }
+    .bottom{
+      flex-wrap: wrap;
+
+      &_left{
+        width: 100%;
+        margin-bottom: 5%;
+
+      }
+
+      &_right{
+        width: 100%;
+
+        nav#nav-footer{
+          text-align: left;
+          margin-bottom: 10px;
+          margin-top: unset;
+
+          ul{
+            display: table-cell;
+          }
+
+        }
+
+        .copyright{
+          text-align: left;
+          br{
+            display: unset;
+          }
+        }
+      }
+    }
+  }
+}
