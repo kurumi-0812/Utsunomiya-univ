@@ -2,6 +2,7 @@
   position: fixed;
   right: 0;
   left: 0;
+  top: 0;
   z-index: 10;
   font-size: 0.8rem;
 
@@ -15,9 +16,9 @@
   }
 
   &_area {
-    padding: 5px 30px;
+    padding: 5px 0;
+    margin: 0 auto;
     justify-content: left;
-    border-top: 1px solid black;
 
     img {
       width: 60px;
@@ -73,17 +74,16 @@
 
   &_logo {
     justify-content: space-between;
-    height: 280px;
-    padding: 50px 70px;
+    height: 150px;
+    padding: 10px 70px 10px 60px;
     background-color: #eae5e3;
-
     img {
-      width: 230px;
+      width: 150px;
     }
 
     h2 {
       width: 35%;
-      margin-top: 30px;
+      margin-top: 10px;
       font-size: 1.2rem;
     }
   }
