@@ -9,15 +9,6 @@
     background-color: #ffffff;
   }
 
-  // h3 {
-  //   margin: 10px 0 0 60px;
-  //   padding: 10px;
-  //   display: inline-block;
-  //   border: 3px solid blue;
-  //   border-bottom: none;
-  //   border-radius: 20px 20px 0 0;
-  // }
-
   &_area {
     padding: 5px 0;
     margin: 0 auto;
@@ -78,23 +69,29 @@
   &_logo {
     justify-content: space-between;
     margin-top: 150px;
-    height: 150px;
-    padding: 10px 70px 10px 60px;
+    height: 200px;
+    padding: 10px 70px 30px 60px;
     background-color: #eae5e3;
+
     img {
       width: 150px;
+      padding-top: 30px;
     }
 
     h2 {
-      width: 35%;
-      margin-top: 10px;
+      width: 40%;
+      margin-top: 30px;
       font-size: 1.2rem;
     }
   }
 }
 
 .header-english {
-  &_list {
+  &_list01 {
+    font-size: 0.7rem;
+  }
+
+  &_list02 {
     font-size: 0.5rem;
   }
 
@@ -103,6 +100,15 @@
     margin-top: 5px;
     font-size: 1rem;
   }
+}
+
+// バーガーメニューをパソコンで非表示
+.menu-btn {
+  display: none;
+}
+
+.menu {
+  display: none;
 }
 
 @include mq($breakpoint: tab) {
@@ -148,18 +154,25 @@
 @include mq($breakpoint: sp) {
   .header {
     &_area {
+      margin: 0 10px;
+
+      img {
+        padding-top: 30px;
+      }
       &_name {
-        margin: auto 0 5px 10px;
+        margin: auto 0 5px 20px;
         font-size: 0.6rem;
       }
 
       &_lang {
+        margin-top: 70px;
         height: 35px;
         font-size: 0.5rem;
       }
     }
     &_logo {
       height: 200px;
+      margin-top: 120px;
 
       img {
         width: 150px;
@@ -173,6 +186,95 @@
     }
   }
 
+  // ナビメニューをsmartphoneで非表示
+  .header_nav {
+    display: none;
+  }
+
+  .menu_lang {
+    margin-top: 20px;
+    li {
+      border: 1px solid #ffffff;
+      width: 100px;
+      padding: 5px;
+      margin-right: 10px;
+      text-align: center;
+    }
+
+    &_jp {
+      background-color: #12b312;
+    }
+
+    &_english {
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+  }
+
+  // バーガーメニュー
+  /*----------------------------
+* メニュー開閉ボタン
+*----------------------------*/
+  .menu-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #12b312;
+    color: #fff;
+  }
+
+  /*----------------------------
+* メニュー本体
+*----------------------------*/
+  .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+  .menu_item {
+    width: 100%;
+    height: auto;
+    padding: 0.5em 1em;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+  }
+
+  /*----------------------------
+* アニメーション部分
+*----------------------------*/
+
+  /* アニメーション前のメニューの状態 */
+  .menu {
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+  }
+  /* アニメーション後のメニューの状態 */
+  .menu.is-active {
+    pointer-events: auto;
+    opacity: 1;
+  }
+
+  // 英語版
   .header-english {
     &_area {
       &_name {
@@ -182,6 +284,20 @@
 
     h2 {
       font-size: 0.8rem;
+    }
+
+    .menu_lang {
+      li {
+        width: 140px;
+      }
+
+      &_jp {
+        background-color: rgba(0, 0, 0, 0.9);
+      }
+
+      &_english {
+        background-color: #12b312;
+      }
     }
   }
 }
