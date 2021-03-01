@@ -187,16 +187,16 @@ p {
   font-size: 1.2rem;
 }
 
-.header-english_list01 {
-  font-size: 0.7rem;
+.header-english .header_area_name {
+  font-size: 0.6rem;
 }
-.header-english_list02 {
-  font-size: 0.5rem;
-}
-.header-english h2 {
+.header-english .header_logo h2 {
   width: 40%;
   margin-top: 5px;
   font-size: 1rem;
+}
+.header-english .header_nav_eng {
+  font-size: 0.6rem;
 }
 
 .menu-btn {
@@ -227,11 +227,18 @@ p {
     font-size: 1.1rem;
   }
 
-  .header-english_area_name {
+  .header-english .header_area_name {
     font-size: 0.6rem;
   }
-  .header-english h2 {
+  .header-english .header_logo h2 {
     font-size: 0.8rem;
+  }
+  .header-english .header_nav_eng {
+    font-size: 0.6rem;
+  }
+
+  .header_nav {
+    display: none;
   }
 }
 @media screen and (max-width: 519px) {
@@ -348,11 +355,14 @@ p {
     opacity: 1;
   }
 
-  .header-english_area_name {
+  .header-english .header_area_name {
     font-size: 0.6rem;
   }
-  .header-english h2 {
-    font-size: 0.8rem;
+  .header-english .header_area_lang li {
+    padding: 8px 5px 5px 5px;
+  }
+  .header-english .header_logo h2 {
+    font-size: 0.6rem;
   }
   .header-english .menu_lang li {
     width: 140px;

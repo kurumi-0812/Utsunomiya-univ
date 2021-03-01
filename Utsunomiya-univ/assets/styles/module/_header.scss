@@ -87,18 +87,26 @@
 }
 
 .header-english {
-  &_list01 {
-    font-size: 0.7rem;
-  }
+  .header {
+    &_area {
+      &_name {
+        font-size: 0.6rem;
+      }
+    }
 
-  &_list02 {
-    font-size: 0.5rem;
-  }
+    &_logo {
+      h2 {
+        width: 40%;
+        margin-top: 5px;
+        font-size: 1rem;
+      }
+    }
 
-  h2 {
-    width: 40%;
-    margin-top: 5px;
-    font-size: 1rem;
+    &_nav {
+      &_eng {
+        font-size: 0.6rem;
+      }
+    }
   }
 }
 
@@ -139,15 +147,30 @@
   }
 
   .header-english {
-    &_area {
-      &_name {
-        font-size: 0.6rem;
+    .header {
+      &_area {
+        &_name {
+          font-size: 0.6rem;
+        }
+      }
+
+      &_logo {
+        h2 {
+          font-size: 0.8rem;
+        }
+      }
+
+      &_nav {
+        &_eng {
+          font-size: 0.6rem;
+        }
       }
     }
+  }
 
-    h2 {
-      font-size: 0.8rem;
-    }
+  // ナビメニューをタブレットで非表示
+  .header_nav {
+    display: none;
   }
 }
 
@@ -277,14 +300,24 @@
 
   // 英語版
   .header-english {
-    &_area {
-      &_name {
-        font-size: 0.6rem;
-      }
-    }
+    .header {
+      &_area {
+        &_name {
+          font-size: 0.6rem;
+        }
 
-    h2 {
-      font-size: 0.8rem;
+        &_lang {
+          li {
+            padding: 8px 5px 5px 5px;
+          }
+        }
+      }
+
+      &_logo {
+        h2 {
+          font-size: 0.6rem;
+        }
+      }
     }
 
     .menu_lang {
