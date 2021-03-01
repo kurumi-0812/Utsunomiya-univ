@@ -132,8 +132,8 @@
 
       h2 {
         width: 45%;
-        margin-top: 30px;
-        font-size: 1rem;
+        margin-top: 60px;
+        font-size: 1.1rem;
       }
     }
   }
@@ -180,8 +180,9 @@
 
       h2 {
         width: 50%;
-        margin-top: 10px;
+        margin-top: 40px;
         font-size: 0.8rem;
+        margin-left: 20px;
       }
     }
   }
@@ -202,7 +203,7 @@
     }
 
     &_jp {
-      background-color: #12b312;
+      background-color: $color-main;
     }
 
     &_english {
@@ -224,7 +225,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #12b312;
+    background: $color-main;
     color: #fff;
   }
 
@@ -296,7 +297,7 @@
       }
 
       &_english {
-        background-color: #12b312;
+        background-color: $color-main;
       }
     }
   }
