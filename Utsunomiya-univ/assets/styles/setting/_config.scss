@@ -1,6 +1,6 @@
 //色
-$color-title: #cc9933;
-$color-border: 	#ff0000;
+$color-main: #12b312;
+$color-border: #ff0000;
 $color-accent01: #e6e6fa;
 $color-accent02: #b0c4de;
 $color-link: #0000ff;
@@ -10,11 +10,12 @@ $color-hover: #ff0000;
 $color-text: #353535;
 
 //フォント
-$font-family:  "Meiryo", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Noto Sans Japanese", sans-serif;
+$font-family: "Meiryo", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro",
+  "Noto Sans Japanese", sans-serif;
 
 //サイズ
 $breakpoints: (
-    'sp': 'screen and (max-width: 519px)',
-    'tab': 'screen and (min-width: 520px) and (max-width: 959px)',
-    'pc': 'screen and (min-width: 960px)',
+  "sp": "screen and (max-width: 519px)",
+  "tab": "screen and (min-width: 520px) and (max-width: 959px)",
+  "pc": "screen and (min-width: 960px)",
 );
