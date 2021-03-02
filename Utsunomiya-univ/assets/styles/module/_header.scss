@@ -136,7 +136,7 @@
     }
 
     &_logo {
-      margin-top: 151px;
+      margin-top: 147px;
       height: 120px;
 
       img {
@@ -179,7 +179,7 @@
   .header {
     &_area {
       img {
-        padding-top: 30px;
+        padding-top: 25px;
         width: 30px;
       }
       &_title {
@@ -193,17 +193,21 @@
     }
 
     &_logo {
-      height: 100px;
+      height: 80px;
       margin-top: 100px;
 
+      &_inner {
+        padding: 10px 20px 20px 10px;
+      }
+
       img {
-        width: 80px;
+        width: 60px;
       }
 
       h2 {
         width: 50%;
-        margin-top: 40px;
-        font-size: 0.8rem;
+        margin-top: 10px;
+        font-size: 0.6rem;
         margin-left: 20px;
       }
     }
