@@ -1,0 +1,82 @@
+// バーガーメニュー
+/*----------------------------
+* メニュー開閉ボタン
+*----------------------------*/
+.burger-menu_btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color-main;
+  color: #fff;
+}
+
+/*----------------------------
+* メニュー本体
+*----------------------------*/
+.burger-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.9);
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+.burger-menu_item {
+  width: 100%;
+  height: auto;
+  padding: 0.5em 1em;
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+/*----------------------------
+* アニメーション部分
+*----------------------------*/
+
+/* アニメーション前のメニューの状態 */
+.burger-menu {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+/* アニメーション後のメニューの状態 */
+.burger-menu.is-active {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+// バーガーメニューをパソコンで非表示
+.burger-menu_btn {
+  display: none;
+}
+
+.burger-menu {
+  display: none;
+}
+
+@include mq($breakpoint: sp) {
+  .burger-menu_btn {
+    display: flex;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+}

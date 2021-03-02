@@ -9,7 +9,7 @@ $(function () {
 
 // バーガーメニュー
 $(function () {
-  $('.menu-btn').on('click', function () {
+  $(document).on('click','.burger-menu_btn', function (){
     $('.menu').toggleClass('is-active');
   });
 }());
