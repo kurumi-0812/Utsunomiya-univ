@@ -10,6 +10,6 @@ $(function () {
 // バーガーメニュー
 $(function () {
   $(document).on('click','.burger-menu_btn', function (){
-    $('.menu').toggleClass('is-active');
+    $('.burger-menu').toggleClass('is-active');
   });
 }());
