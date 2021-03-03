@@ -232,21 +232,27 @@ p {
     margin-top: 147px;
     height: 120px;
   }
+  .header_logo_inner {
+    padding: 10px 0px 10px 60px;
+  }
   .header_logo img {
     width: 100px;
   }
   .header_logo h2 {
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 0.8rem;
   }
 
   .header-english .header_area_title {
     font-size: 0.6rem;
   }
+  .header-english .header_logo {
+    height: 130px;
+  }
   .header-english .header_logo h2 {
     width: 50%;
-    margin-top: 50px;
-    font-size: 0.9rem;
+    margin-top: 0px;
+    font-size: 0.8rem;
   }
   .header-english .header_nav_eng {
     font-size: 0.4rem;
@@ -287,10 +293,15 @@ p {
 
   .header-english .header_area_title {
     font-size: 0.6rem;
+    margin: 20px 0 5px 20px;
+  }
+  .header-english .header_logo {
+    height: 90px;
   }
   .header-english .header_logo h2 {
-    margin-top: 30px;
-    font-size: 0.6rem;
+    width: 60%;
+    margin-top: 0px;
+    font-size: 0.3rem;
   }
 }
 /*----------------------------
@@ -377,6 +388,7 @@ p {
 
   .burger-menu_lang {
     margin-top: 20px;
+    justify-content: center;
   }
   .burger-menu_lang li {
     border: 1px solid #ffffff;
