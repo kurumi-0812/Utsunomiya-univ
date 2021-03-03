@@ -147,7 +147,7 @@ p {
 .header_area img {
   width: 60px;
 }
-.header_area_name {
+.header_area_title {
   margin: auto 0 5px 50px;
 }
 .header_area_lang {
@@ -203,7 +203,7 @@ p {
   font-size: 1rem;
 }
 
-.header-english .header_area_name {
+.header-english .header_area_title {
   font-size: 0.6rem;
 }
 .header-english .header_logo h2 {
@@ -216,7 +216,7 @@ p {
 }
 
 @media screen and (min-width: 520px) and (max-width: 959px) {
-  .header_area_name {
+  .header_area_title {
     font-size: 0.7rem;
   }
   .header_area_lang {
@@ -240,7 +240,7 @@ p {
     font-size: 0.8rem;
   }
 
-  .header-english .header_area_name {
+  .header-english .header_area_title {
     font-size: 0.6rem;
   }
   .header-english .header_logo h2 {
@@ -249,7 +249,7 @@ p {
     font-size: 0.9rem;
   }
   .header-english .header_nav_eng {
-    font-size: 0.6rem;
+    font-size: 0.4rem;
   }
 }
 @media screen and (max-width: 519px) {
@@ -285,41 +285,12 @@ p {
     display: none;
   }
 
-  .burger-menu_lang {
-    margin-top: 20px;
-  }
-  .burger-menu_lang li {
-    border: 1px solid #ffffff;
-    width: 100px;
-    padding: 5px;
-    margin-right: 10px;
-    text-align: center;
-  }
-  .burger-menu_lang_jp {
-    background-color: #12b312;
-  }
-  .burger-menu_lang_english {
-    background-color: rgba(0, 0, 0, 0.9);
-  }
-
-  .header-english .header_area_name {
+  .header-english .header_area_title {
     font-size: 0.6rem;
-  }
-  .header-english .header_area_lang li {
-    padding: 8px 5px 5px 5px;
   }
   .header-english .header_logo h2 {
     margin-top: 30px;
     font-size: 0.6rem;
-  }
-  .header-english .burger-menu_lang li {
-    width: 140px;
-  }
-  .header-english .burger-menu_lang_jp {
-    background-color: rgba(0, 0, 0, 0.9);
-  }
-  .header-english .burger-menu_lang_english {
-    background-color: #12b312;
   }
 }
 /*----------------------------
@@ -396,10 +367,39 @@ p {
 @media screen and (max-width: 519px) {
   .burger-menu_btn {
     display: flex;
+    justify-content: center;
   }
 
   .burger-menu {
     display: block;
+    padding-top: 100px;
+  }
+
+  .burger-menu_lang {
+    margin-top: 20px;
+  }
+  .burger-menu_lang li {
+    border: 1px solid #ffffff;
+    width: 100px;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  .burger-menu_lang_jp {
+    background-color: #12b312;
+  }
+  .burger-menu_lang_english {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .header_english .burger-menu_lang li {
+    width: 140px;
+  }
+  .header_english .burger-menu_lang_jp {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .header_english .burger-menu_lang_english {
+    background-color: #12b312;
   }
 }
 .footer .parallax {

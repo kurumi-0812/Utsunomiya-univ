@@ -100,4 +100,20 @@
       background-color: rgba(0, 0, 0, 0.9);
     }
   }
+
+  .header_english {
+    .burger-menu_lang {
+      li {
+        width: 140px;
+      }
+
+      &_jp {
+        background-color: rgba(0, 0, 0, 0.9);
+      }
+
+      &_english {
+        background-color: $color-main;
+      }
+    }
+  }
 }
