@@ -130,3 +130,23 @@
     color: $color-main;
   }
 }
+
+@include mq($breakpoint: tab) {
+  .policy {
+    margin: 30px 15px;
+    &_title {
+      padding: 30px 25px 28px;
+      font-size: 2rem;
+    }
+  }
+}
+
+@include mq($breakpoint: sp) {
+  .policy {
+    margin: 30px 15px;
+    &_title {
+      padding: 20px 15px 18px;
+      font-size: 1.375rem;
+    }
+  }
+}
