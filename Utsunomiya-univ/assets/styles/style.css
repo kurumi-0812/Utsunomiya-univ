@@ -988,6 +988,9 @@ p {
     width: 80%;
   }
 }
+.policy {
+  margin: 30px auto;
+}
 .policy_title {
   font-size: 2rem;
   padding: 20px 25px 28px;
