@@ -14,15 +14,9 @@ $(function() {
         $(this).toggleClass('active');
 
         if ($(this).hasClass('active')) {
-            $('.globalMenuSp').addClass('active');
+            $('.burger-menu').addClass('active');
         } else {
-            $('.globalMenuSp').removeClass('active');
+            $('.burger-menu').removeClass('active');
         }
     });
 });
-
-// $(function () {
-//   $(document).on('click','.burger-menu_btn', function (){
-//     $('.burger-menu').toggleClass('is-active');
-//   });
-// }());
