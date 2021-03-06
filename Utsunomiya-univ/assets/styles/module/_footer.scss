@@ -65,7 +65,7 @@
     }
 
     .img-fluid {
-      max-width: 100%;
+      max-width: 60%;
       height: auto;
     }
   }
@@ -105,7 +105,7 @@
 
             &:before {
               content: "\f0da";
-              font-family: FontAwesome;
+              font-family: 'Font Awesome 5 Free';
               font-weight: 900;
               margin-right: 8px;
             }

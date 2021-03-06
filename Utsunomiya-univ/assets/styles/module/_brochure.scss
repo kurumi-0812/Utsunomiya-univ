@@ -5,6 +5,10 @@
   &_img {
     margin: 50px;
     text-align: center;
+
+    img {
+      width: 100%;
+    }
   }
 
   &_pdf {
@@ -12,6 +16,7 @@
     padding: 10px 20px;
 
     img {
+      width: 100%;
       margin-left: 100px;
     }
   }

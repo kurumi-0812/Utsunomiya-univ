@@ -5,6 +5,7 @@ $(function () {
   $("#header").load("header.html");
   $("#header-eng").load("header.html");
   $("#footer").load("footer.html");
+  $("#footer_eng").load("footer.html");
 });
 
 // バーガーメニュー
