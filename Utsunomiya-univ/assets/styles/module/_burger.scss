@@ -74,7 +74,7 @@
   }
 
   .burger-menu {
-    display: none;
+    visibility: hidden;
     position: fixed;
     z-index: 2;
     top: 0;
@@ -116,7 +116,7 @@
   /* このクラスを、jQueryで付与・削除する */
   .burger-menu {
     &.active {
-      display: unset;
+      visibility: visible;
       opacity: 100;
     }
   }
