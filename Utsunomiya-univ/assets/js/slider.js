@@ -6,8 +6,8 @@ $(function () {
     autoplaySpeed: 5000,
     dots: true,
     slidesToShow: 1,
-    prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button">Previous</button>',
-    nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" >Next</button>',
+    prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" ></button>',
+    nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" ></button>',
     centerMode: true,
     centerPadding:'20%',
     responsive:

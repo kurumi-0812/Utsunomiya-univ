@@ -461,7 +461,7 @@ p {
   /* このクラスを、jQueryで付与・削除する */
   .burger-menu.active {
     visibility: visible;
-    opacity: 100;
+    opacity: 1;
   }
 
   .burger-menu_lang {
@@ -521,7 +521,7 @@ p {
   padding: 80px 0 80px;
 }
 .footer .banners .banner {
-  width: 16.5%;
+  width: 33%;
 }
 .footer .banners .banner a {
   display: block;

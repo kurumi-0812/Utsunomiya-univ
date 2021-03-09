@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utsunomiya-University-contact</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="../js/main.js" defer></script>
+  </head>
+  <body>
+    <header id="header"></header>
+    <section id="contact" class="contact container">
+      <h2 class="c_title_l">Contact</h2>
+      <h3 class="c_title_m">■ Contact Form</h3>
+      <div class="form">
+        <div class="c_flex">
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" placeholder="" />
+        </div>
+        <div class="c_flex">
+          <label for="class">Affiliation</label>
+          <input id="class" type="text" name="class" placeholder="" />
+        </div>
+        <div class="c_flex">
+          <label for="mail">Mail</label>
+          <input
+            id="mail"
+            type="email"
+            name="email"
+            placeholder="例）example@gmail.com"
+          />
+        </div>
+        <div class="c_flex">
+          <label for="comment">Comments</label><br />
+          <textarea id="comment" rows="10" cols="30" placeholder=""></textarea>
+        </div>
+        <div class="form_btn">
+          <input type="submit" value="SUBMIT" />
+        </div>
+      </div>
+    </section>
+    <footer id="footer"></footer>
+  </body>
+</html>

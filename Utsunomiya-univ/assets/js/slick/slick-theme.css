@@ -63,8 +63,9 @@
 }
 .slick-prev:before,
 .slick-next:before {
-  font-family: "FontAwesome";
-  font-size: 20px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 50px;
   line-height: 1;
   color: #282827;
   opacity: 0.75;
