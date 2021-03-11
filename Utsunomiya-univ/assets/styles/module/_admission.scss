@@ -27,6 +27,11 @@
     &_list {
       margin-left: 20px;
       list-style: disc;
+
+      li {
+        list-style:disc;
+        margin-left: 50px;
+      }
     }
   }
 
@@ -54,6 +59,11 @@
     &_ans {
       padding: 10px;
       margin: 30px 20px 20px 100px;
+
+      li {
+        list-style: disc;
+        margin-left: 50px;
+      }
     }
   }
 

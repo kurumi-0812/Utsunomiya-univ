@@ -1,5 +1,4 @@
 .program {
-
   p {
     margin-bottom: 10px;
   }
@@ -20,6 +19,18 @@
     width: 70%;
     padding: 10px 20px 15px;
     margin-top: 50px;
+
+    ul {
+      margin-left: 50px;
+    }
+
+    li {
+      list-style: disc;
+    }
+
+    p {
+      margin-left: 50px;
+    }
   }
 }
 
@@ -28,7 +39,6 @@
 
 @include mq($breakpoint: sp) {
   .program {
-
     &_item01 {
       width: 100%;
       padding: 20px 10px 15px;
