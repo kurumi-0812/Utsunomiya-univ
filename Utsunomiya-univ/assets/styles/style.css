@@ -101,7 +101,7 @@ p {
 }
 @media screen and (max-width: 519px) {
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .container {
@@ -781,6 +781,10 @@ p {
   }
 }
 @media screen and (max-width: 519px) {
+  .curriculum p {
+    margin: 10px;
+    font-size: 0.9rem;
+  }
   .curriculum ul {
     margin-left: 20px;
   }
@@ -930,8 +934,18 @@ p {
 }
 
 @media screen and (max-width: 519px) {
+  .admission_application_text {
+    margin-left: 30px;
+  }
   .admission_faq_ans {
-    margin: 30px 20px 20px 50px;
+    margin: 30px 20px 20px 20px;
+  }
+
+  .english .admission_item_table {
+    font-size: 0.8rem;
+  }
+  .english .admission_item_table_list li {
+    margin-left: 10px;
   }
 }
 .brochure h3 {
@@ -1004,7 +1018,7 @@ p {
 }
 
 .report-english_list {
-  margin-left: 90px;
+  margin-left: 30px;
 }
 
 @media screen and (min-width: 520px) and (max-width: 959px) {
@@ -1016,6 +1030,14 @@ p {
   .report_item_table {
     width: 100%;
     margin: 30px 0;
+    font-size: 0.7rem;
+  }
+
+  .report-english h3 {
+    font-size: 0.8rem;
+  }
+  .report-english_list {
+    margin-left: 0px;
   }
 }
 .access_img {

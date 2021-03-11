@@ -28,6 +28,10 @@
 
 @include mq($breakpoint: sp) {
   .curriculum {
+    p {
+    margin:10px;
+    font-size: 0.9rem;
+  }
     ul {
       margin-left: 20px;
     }

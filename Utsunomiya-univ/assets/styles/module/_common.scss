@@ -44,10 +44,6 @@ html {
   display: flex;
 }
 
-// .c_border {
-//   border: 6px solid $color-border;
-// }
-
 a {
   cursor: pointer;
   word-break: break-all;
@@ -106,7 +102,7 @@ p {
 
 @include mq($breakpoint: sp) {
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .container {
@@ -129,4 +125,6 @@ p {
   .c_title_s02 {
     font-size: 1rem;
   }
+
+  
 }
