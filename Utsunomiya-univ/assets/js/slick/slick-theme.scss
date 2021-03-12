@@ -222,18 +222,20 @@ $slick-font-weight: 900 !default;
     }
   }
 }
-@media only screen and (max-width: 400px) {
-  .slick-dots li button {
-    display: none;
+
+@media only screen and (max-width: 1100px) {
+  .slick-dots {
+    bottom: 15px;
   }
 
   .slick-prev,
   .slick-next {
     &:before {
-      font-size: 20px;
+      font-size: 30px;
     }
   }
 }
+
 @media only screen and (max-width: 540px) {
   .slick-prev,
   .slick-next {
@@ -247,15 +249,16 @@ $slick-font-weight: 900 !default;
     }
   }
 }
-@media only screen and (max-width: 1100px) {
-  .slick-dots {
-    bottom: 15px;
+
+@media only screen and (max-width: 400px) {
+  .slick-dots li button {
+    display: none;
   }
 
   .slick-prev,
   .slick-next {
     &:before {
-      font-size: 30px;
+      font-size: 20px;
     }
   }
 }
