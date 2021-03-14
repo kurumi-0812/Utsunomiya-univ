@@ -29,6 +29,7 @@
 
 @include mq($breakpoint: tab) {
   .brochure {
+    margin: 200px 10px;
     &_pdf {
       width: 80%;
       margin: 0 auto;
@@ -43,6 +44,7 @@
 
 @include mq($breakpoint: sp) {
   .brochure {
+    margin: 100px 10px;
     &_img {
       margin: 20px;
     }

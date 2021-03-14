@@ -76,10 +76,14 @@
 }
 
 @include mq($breakpoint: tab) {
+  .admission {
+    margin: 200px 10px;
+  }
 }
 
 @include mq($breakpoint: sp) {
   .admission {
+    margin: 100px 10px;
     &_application {
       &_text {
         margin-left: 30px;

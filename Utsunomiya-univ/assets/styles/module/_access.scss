@@ -1,5 +1,4 @@
 .access {
-
   &_img {
     text-align: center;
   }
@@ -25,6 +24,7 @@
 
 @include mq($breakpoint: tab) {
   .access {
+    margin: 200px 10px;
     &_img {
       text-align: center;
 
@@ -37,6 +37,7 @@
 
 @include mq($breakpoint: sp) {
   .access {
+    margin: 100px 10px;
     &_img {
       text-align: center;
 

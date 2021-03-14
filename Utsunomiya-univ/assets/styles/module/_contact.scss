@@ -45,9 +45,15 @@
 }
 
 @include mq($breakpoint: tab) {
+  .contact {
+    margin: 200px 10px;
+  }
 }
 
 @include mq($breakpoint: sp) {
+  .contact {
+    margin: 100px 10px;
+  }
   .form {
     margin-left: 0px;
 

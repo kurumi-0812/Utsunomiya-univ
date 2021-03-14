@@ -20,6 +20,7 @@
 
 @include mq($breakpoint: tab) {
   .curriculum {
+    margin: 200px 10px;
     &_text {
       padding: 0;
     }
@@ -28,6 +29,7 @@
 
 @include mq($breakpoint: sp) {
   .curriculum {
+    margin: 100px 10px;
     p {
     margin:10px;
     font-size: 0.9rem;

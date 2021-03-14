@@ -1,5 +1,4 @@
 .university {
-
   &_place {
     margin-top: 30px;
     text-align: center;
@@ -91,10 +90,14 @@
 }
 
 @include mq($breakpoint: tab) {
+  .university {
+    margin: 200px 10px;
+  }
 }
 
 @include mq($breakpoint: sp) {
   .university {
+    margin: 100px 10px;
     &_kenya {
       width: 100%;
     }

@@ -40,6 +40,7 @@
 
 @include mq($breakpoint: tab) {
   .report {
+    margin: 200px 10px;
     &_item_table {
       margin: 30px 10px 0 30px;
     }
@@ -48,6 +49,7 @@
 
 @include mq($breakpoint: sp) {
   .report {
+    margin: 100px 10px;
     &_item_table {
       width: 100%;
       margin: 30px 0;
