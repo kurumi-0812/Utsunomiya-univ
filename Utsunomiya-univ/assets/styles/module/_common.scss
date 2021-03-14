@@ -5,7 +5,7 @@ html {
 
 .container {
   max-width: 1100px;
-  margin: 100px auto;
+  margin: 240px auto 240px;
 }
 
 .c_inner {
@@ -16,8 +16,9 @@ html {
 .c_title_l {
   display: inline-block;
   padding: 5px 30px;
-  background-color: $color-main;
+  background-color: $color-c-title-l;
   color: #ffffff;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
 
 .c_title_m {
@@ -126,5 +127,5 @@ p {
     font-size: 1rem;
   }
 
-  
+
 }

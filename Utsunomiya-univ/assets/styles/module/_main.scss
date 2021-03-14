@@ -1,6 +1,10 @@
 .objective {
   justify-content: space-between;
 
+  &.container {
+    margin-top: 10%;
+  }
+
   h3 {
     margin-top: 20px;
   }
@@ -45,6 +49,7 @@
 }
 
 #home-face {
+  margin-top: 250px;
   padding-top: 4%;
   padding-bottom: 4%;
   background-image: url("../img/bg_g.png");
