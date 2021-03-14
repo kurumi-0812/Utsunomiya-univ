@@ -18,7 +18,7 @@ html {
   padding: 5px 30px;
   background-color: $color-c-title-l;
   color: #ffffff;
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .c_title_m {
@@ -79,7 +79,7 @@ p {
   }
 
   .c_inner {
-    margin: 0 30px;
+    margin: 0 10px;
   }
 
   .c_title_m {
@@ -111,7 +111,7 @@ p {
   }
 
   .c_inner {
-    margin: 0 15px;
+    margin: 0;
   }
 
   .c_title_m {
@@ -126,6 +126,4 @@ p {
   .c_title_s02 {
     font-size: 1rem;
   }
-
-
 }

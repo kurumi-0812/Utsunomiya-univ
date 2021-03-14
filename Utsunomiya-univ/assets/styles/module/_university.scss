@@ -98,6 +98,9 @@
 @include mq($breakpoint: sp) {
   .university {
     margin: 100px 10px;
+    &.english {
+      margin: 120px 10px;
+    }
     &_kenya {
       width: 100%;
     }

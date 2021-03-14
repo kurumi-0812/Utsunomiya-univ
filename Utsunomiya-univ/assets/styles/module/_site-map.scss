@@ -63,6 +63,9 @@
 @include mq($breakpoint: sp) {
   .site-map {
     margin: 100px 15px;
+    &.english {
+      margin: 120px 10px;
+    }
     &_title {
       padding: 10px;
       font-size: 1.375rem;

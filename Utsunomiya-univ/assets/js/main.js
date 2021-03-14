@@ -5,13 +5,12 @@ $(function () {
   $("#header").load("header.html");
   $("#header-eng").load("header.html");
   $("#footer").load("footer.html");
-  $("#footer_eng").load("footer.html");
+  $("#footer-eng").load("footer.html");
 });
 
 // バーガーメニュー
 $(function() {
   $(document).on('click','.hamburger', function (){
-    // $('.hamburger').click(function() {
         $(this).toggleClass('active');
 
         if ($(this).hasClass('active')) {

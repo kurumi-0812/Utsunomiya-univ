@@ -78,8 +78,11 @@
     }
   }
   #home-face {
-    margin-top: 100px;
+    margin-top: 80px;
     padding-top: 8%;
     padding-bottom: 8%;
+    &.english {
+      margin-top: 100px;
+    }
   }
 }

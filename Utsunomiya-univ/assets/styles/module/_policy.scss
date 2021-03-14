@@ -144,6 +144,9 @@
 @include mq($breakpoint: sp) {
   .policy {
     margin: 100px 10px;
+    &.english {
+      margin: 120px 10px;
+    }
     &_title {
       padding: 10px;
       font-size: 1.375rem;

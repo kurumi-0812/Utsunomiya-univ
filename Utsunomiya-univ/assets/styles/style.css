@@ -79,7 +79,7 @@ p {
   }
 
   .c_inner {
-    margin: 0 30px;
+    margin: 0 10px;
   }
 
   .c_title_m {
@@ -110,7 +110,7 @@ p {
   }
 
   .c_inner {
-    margin: 0 15px;
+    margin: 0;
   }
 
   .c_title_m {
@@ -146,6 +146,9 @@ p {
   justify-content: space-between;
   padding: 10px 20px;
 }
+.header_logo_inner h1 {
+  height: 50px;
+}
 .header_logo_inner img {
   width: 110px;
   padding-top: 10px;
@@ -179,13 +182,13 @@ p {
   padding: 10px;
 }
 .header_area_lang_jp {
-  background-color: #9CCB88;
+  background-color: #9ccb88;
 }
 .header_area_lang_jp a {
   color: #ffffff;
 }
 .header_area_lang_english {
-  background-color: #EAE5E2;
+  background-color: #eae5e2;
 }
 .header_area_lang_english a {
   color: #353535;
@@ -197,8 +200,8 @@ p {
   justify-content: center;
 }
 .header_nav_bg {
-  background-color: #9CCB88;
-  border-top: 1px solid #EAE5E2;
+  background-color: #9ccb88;
+  border-top: 1px solid #eae5e2;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 .header_nav li {
@@ -218,7 +221,7 @@ p {
   bottom: 0;
   width: 1px;
   height: 65%;
-  background-color: #EAE5E2;
+  background-color: #eae5e2;
   opacity: 0.6;
 }
 .header_nav li:last-of-type::after {
@@ -230,13 +233,13 @@ p {
   bottom: 0;
   width: 1px;
   height: 65%;
-  background-color: #EAE5E2;
+  background-color: #eae5e2;
   opacity: 0.6;
 }
 .header_nav li :hover {
   opacity: 0.7;
-  background-color: #9CCB88;
-  border-bottom: 1px solid #9CCB88;
+  background-color: #9ccb88;
+  border-bottom: 1px solid #9ccb88;
   transition: all 0.3s;
   height: 80%;
 }
@@ -256,13 +259,13 @@ p {
   padding: 10px;
 }
 .header-english .header_area_lang_jp {
-  background-color: #EAE5E2;
+  background-color: #eae5e2;
 }
 .header-english .header_area_lang_jp a {
   color: #353535;
 }
 .header-english .header_area_lang_english {
-  background-color: #9CCB88;
+  background-color: #9ccb88;
 }
 .header-english .header_area_lang_english a {
   color: #ffffff;
@@ -349,6 +352,7 @@ p {
   .header_logo h2 {
     width: 90%;
     margin-top: 3%;
+    padding: 0;
     font-size: 10px;
     transform: scale(0.7);
     transform-origin: 0 0;
@@ -360,8 +364,9 @@ p {
   }
 
   .header-english .header_area_title {
-    font-size: 0.6rem;
-    margin: 5px 0 5px 10px;
+    font-size: 10px;
+    transform: scale(0.6);
+    transform-origin: 0 0;
   }
   .header-english .header_logo {
     height: 95px;
@@ -372,7 +377,9 @@ p {
   .header-english .header_logo h2 {
     width: 60%;
     margin-top: 2%;
-    font-size: 0.5rem;
+    font-size: 10px;
+    transform: scale(0.6);
+    transform-origin: 0 0;
   }
   .header-english .burger-menu_lang li {
     width: 140px;
@@ -381,7 +388,7 @@ p {
     background-color: rgba(0, 0, 0, 0.9);
   }
   .header-english .burger-menu_lang_english {
-    background-color: #9CCB88;
+    background-color: #9ccb88;
   }
 }
 @media screen and (min-width: 960px) {
@@ -503,7 +510,7 @@ p {
     text-align: center;
   }
   .burger-menu_lang_jp {
-    background-color: #9CCB88;
+    background-color: #9ccb88;
   }
   .burger-menu_lang_english {
     background-color: rgba(0, 0, 0, 0.9);
@@ -516,11 +523,11 @@ p {
     background-color: rgba(0, 0, 0, 0.9);
   }
   .header_english .burger-menu_lang_english {
-    background-color: #9CCB88;
+    background-color: #9ccb88;
   }
 }
 .footer {
-  background-color: #9CCB88;
+  background-color: #9ccb88;
 }
 .footer .parallax {
   background-image: url(../img/parallax.jpg);
@@ -752,9 +759,12 @@ p {
   }
 
   #home-face {
-    margin-top: 100px;
+    margin-top: 80px;
     padding-top: 8%;
     padding-bottom: 8%;
+  }
+  #home-face.english {
+    margin-top: 100px;
   }
 }
 .summary p {
@@ -776,6 +786,9 @@ p {
 @media screen and (max-width: 519px) {
   .summary {
     margin: 100px 10px;
+  }
+  .summary.english {
+    margin: 120px 10px;
   }
   .summary ul {
     width: 80%;
@@ -819,6 +832,9 @@ p {
   .program {
     margin: 100px 10px;
   }
+  .program.english {
+    margin: 120px 10px;
+  }
   .program_item01 {
     width: 100%;
     padding: 20px 10px 15px;
@@ -855,6 +871,9 @@ p {
 @media screen and (max-width: 519px) {
   .curriculum {
     margin: 100px 10px;
+  }
+  .curriculum.english {
+    margin: 120px 10px;
   }
   .curriculum p {
     margin: 10px;
@@ -946,6 +965,9 @@ p {
   .university {
     margin: 100px 10px;
   }
+  .university.english {
+    margin: 120px 10px;
+  }
   .university_kenya {
     width: 100%;
   }
@@ -1025,6 +1047,9 @@ p {
   .admission {
     margin: 100px 10px;
   }
+  .admission.english {
+    margin: 120px 10px;
+  }
   .admission_application_text {
     margin-left: 30px;
   }
@@ -1079,6 +1104,12 @@ p {
   .brochure {
     margin: 100px 10px;
   }
+  .brochure.english {
+    margin: 120px 10px;
+  }
+  .brochure.english h2 {
+    font-size: 0.8rem;
+  }
   .brochure_img {
     margin: 20px;
   }
@@ -1130,6 +1161,9 @@ p {
   .report {
     margin: 100px 10px;
   }
+  .report.english {
+    margin: 120px 10px;
+  }
   .report_item_table {
     width: 100%;
     margin: 30px 0;
@@ -1175,6 +1209,9 @@ p {
   .access {
     margin: 100px 10px;
   }
+  .access.english {
+    margin: 120px 10px;
+  }
   .access_img {
     text-align: center;
   }
@@ -1188,7 +1225,7 @@ p {
 .policy_title {
   font-size: 2rem;
   padding: 20px 25px 28px;
-  background: #9CCB88;
+  background: #9ccb88;
   color: #ffffff;
 }
 .policy .content {
@@ -1213,7 +1250,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  border-top: 45px solid #9CCB88;
+  border-top: 45px solid #9ccb88;
   width: 45px;
   z-index: -1;
 }
@@ -1231,7 +1268,7 @@ p {
   display: block;
   position: absolute;
   height: 100%;
-  border-left: 4px solid #9CCB88;
+  border-left: 4px solid #9ccb88;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
@@ -1300,7 +1337,7 @@ p {
 }
 .policy a {
   text-decoration: none;
-  color: #9CCB88;
+  color: #9ccb88;
 }
 
 @media screen and (min-width: 520px) and (max-width: 959px) {
@@ -1316,6 +1353,9 @@ p {
   .policy {
     margin: 100px 10px;
   }
+  .policy.english {
+    margin: 120px 10px;
+  }
   .policy_title {
     padding: 10px;
     font-size: 1.375rem;
@@ -1327,7 +1367,7 @@ p {
 .site-map_title {
   font-size: 2rem;
   padding: 20px 25px 28px;
-  background: #9CCB88;
+  background: #9ccb88;
   color: #ffffff;
 }
 .site-map .content {
@@ -1363,7 +1403,7 @@ p {
 }
 .site-map .content a {
   text-decoration: underline;
-  color: #9CCB88;
+  color: #9ccb88;
 }
 
 @media screen and (min-width: 520px) and (max-width: 959px) {
@@ -1378,6 +1418,9 @@ p {
 @media screen and (max-width: 519px) {
   .site-map {
     margin: 100px 15px;
+  }
+  .site-map.english {
+    margin: 120px 10px;
   }
   .site-map_title {
     padding: 10px;
@@ -1433,6 +1476,9 @@ p {
 @media screen and (max-width: 519px) {
   .contact {
     margin: 100px 10px;
+  }
+  .contact.english {
+    margin: 120px 10px;
   }
 
   .form {

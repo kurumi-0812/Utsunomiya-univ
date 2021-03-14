@@ -50,6 +50,9 @@
 @include mq($breakpoint: sp) {
   .report {
     margin: 100px 10px;
+    &.english {
+      margin: 120px 10px;
+    }
     &_item_table {
       width: 100%;
       margin: 30px 0;

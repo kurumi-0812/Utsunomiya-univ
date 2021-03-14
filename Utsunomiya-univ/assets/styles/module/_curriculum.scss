@@ -1,5 +1,4 @@
 .curriculum {
-  
   &_wrapper {
     margin-top: 20px;
     padding: 10px;
@@ -30,10 +29,13 @@
 @include mq($breakpoint: sp) {
   .curriculum {
     margin: 100px 10px;
+    &.english {
+      margin: 120px 10px;
+    }
     p {
-    margin:10px;
-    font-size: 0.9rem;
-  }
+      margin: 10px;
+      font-size: 0.9rem;
+    }
     ul {
       margin-left: 20px;
     }

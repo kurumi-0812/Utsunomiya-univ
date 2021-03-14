@@ -43,6 +43,9 @@
 @include mq($breakpoint: sp) {
   .program {
     margin: 100px 10px;
+    &.english {
+      margin: 120px 10px;
+    }
     &_item01 {
       width: 100%;
       padding: 20px 10px 15px;

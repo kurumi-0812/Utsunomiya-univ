@@ -53,6 +53,9 @@
 @include mq($breakpoint: sp) {
   .contact {
     margin: 100px 10px;
+    &.english {
+      margin: 120px 10px;
+    }
   }
   .form {
     margin-left: 0px;

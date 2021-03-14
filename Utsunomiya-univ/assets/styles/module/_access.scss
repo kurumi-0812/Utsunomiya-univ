@@ -38,6 +38,9 @@
 @include mq($breakpoint: sp) {
   .access {
     margin: 100px 10px;
+    &.english {
+      margin: 120px 10px;
+    }
     &_img {
       text-align: center;
 

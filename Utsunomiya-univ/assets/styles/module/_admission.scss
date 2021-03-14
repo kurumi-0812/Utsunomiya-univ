@@ -84,6 +84,9 @@
 @include mq($breakpoint: sp) {
   .admission {
     margin: 100px 10px;
+    &.english {
+      margin: 120px 10px;
+    }
     &_application {
       &_text {
         margin-left: 30px;
