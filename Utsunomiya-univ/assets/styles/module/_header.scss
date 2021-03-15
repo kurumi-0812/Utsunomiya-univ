@@ -132,12 +132,18 @@
       }
 
       :hover {
-        opacity: 0.7;
-        background-color: $color-main;
-        border-bottom: 1px solid $color-main;
+        background: #556b2f;
+        color: #ffffff;
         transition: all 0.3s;
-        height: 80%;
       }
+
+      // :hover {
+      //   opacity: 0.7;
+      //   background-color: $color-main;
+      //   border-bottom: 1px solid $color-main;
+      //   transition: all 0.3s;
+      //   height: 80%;
+      // }
     }
 
     a {
