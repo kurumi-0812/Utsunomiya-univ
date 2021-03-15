@@ -20,3 +20,25 @@ $(function() {
         }
     });
 });
+
+// カレント表示
+$(function () {
+  $(document).ready(function () {
+    if (location.pathname != "/") {
+      $('.header_nav ul li a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('current');
+    } else {
+      $('.header_nav ul li a:eq(0)').addClass('current');
+    }
+  });
+});
+
+// $(function() {
+//   $('.header_nav li a').each(function(){
+//       var $href = $(this).attr('href');
+//       if(location.href.match($href)) {
+//           $(this).parent().addClass('current');
+//       } else {
+//           $(this).parent().removeClass('current');
+//       }
+//   });
+// });
