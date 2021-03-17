@@ -1,4 +1,10 @@
 .admission {
+  &_nav {
+    .nav05 {
+      background: #556b2f;
+      color: #ffffff;
+    }
+  }
   width: 95%;
 
   &_item {

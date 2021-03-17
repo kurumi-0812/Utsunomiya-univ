@@ -9,28 +9,29 @@ $(function () {
 });
 
 // バーガーメニュー
-$(function() {
-  $(document).on('click','.hamburger', function (){
-        $(this).toggleClass('active');
-
-        if ($(this).hasClass('active')) {
-            $('.burger-menu').addClass('active');
-        } else {
-            $('.burger-menu').removeClass('active');
-        }
-    });
-});
-
-// カレント表示
 $(function () {
-  $(document).ready(function () {
-    if (location.pathname != "/") {
-      $('.header_nav ul li a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('current');
+  $(document).on('click', '.hamburger', function () {
+    $(this).toggleClass('active');
+
+    if ($(this).hasClass('active')) {
+      $('.burger-menu').addClass('active');
     } else {
-      $('.header_nav ul li a:eq(0)').addClass('current');
+      $('.burger-menu').removeClass('active');
     }
   });
 });
+
+// カレント表示
+// $(function () {
+//   $(document).ready(function () {
+//     if (location.pathname != "/") {
+//       $('.header_nav ul li a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('current');
+//     } else {
+//       $('.header_nav ul li a:eq(0)').addClass('current');
+//     }
+//   });
+// });
+
 
 // $(function() {
 //   $('.header_nav li a').each(function(){

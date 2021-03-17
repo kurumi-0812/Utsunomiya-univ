@@ -1,4 +1,10 @@
 .report {
+  &_nav {
+    .nav07 {
+      background: #556b2f;
+      color: #ffffff;
+    }
+  }
   &_item {
     padding: 10px 0 10px 10px;
   }
