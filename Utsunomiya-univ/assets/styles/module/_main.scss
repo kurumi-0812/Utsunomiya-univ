@@ -1,7 +1,6 @@
 .objective {
   justify-content: space-between;
 
-
   &.container {
     margin-top: 10%;
   }
@@ -34,7 +33,9 @@
 
     ul {
       margin-top: 20px;
-      min-height: 410px;
+      height: 500px;
+      overflow-y: scroll;
+      overflow-x: hidden;
       padding: 10px;
       border: 2px solid #000000;
     }
@@ -56,6 +57,21 @@
   background-image: url("../img/bg_g.png");
   background-color: #eae5e3;
   background-repeat: round;
+}
+
+.english {
+  .objective {
+    &_text {
+      p {
+        text-align: justify;
+      }
+    }
+    &_right {
+      p {
+        text-align: justify;
+      }
+    }
+  }
 }
 
 @include mq($breakpoint: tab) {

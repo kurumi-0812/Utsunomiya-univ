@@ -19,6 +19,14 @@
   }
 }
 
+.english {
+  &.summary {
+    p {
+      text-align: justify;
+    }
+  }
+}
+
 @include mq($breakpoint: tab) {
   .summary {
     margin: 200px 10px;
