@@ -89,10 +89,8 @@
 
       .addr {
         font-size: 0.7em;
-        padding-left: 20px;
-        padding-top: 47px;
-        display: table;
-        vertical-align: bottom;
+        padding: 30px;
+        // display: table;
       }
     }
 
@@ -130,6 +128,12 @@
       br {
         display: none;
       }
+    }
+  }
+
+  .bottom-english {
+    .addr {
+      padding: 10px 0 0 30px;
     }
   }
 }

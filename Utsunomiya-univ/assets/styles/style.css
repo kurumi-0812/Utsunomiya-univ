@@ -154,27 +154,31 @@ p {
   padding-top: 10px;
 }
 .header_logo_inner h2 {
-  width: 40%;
+  width: 70%;
   margin-top: 1%;
   padding-left: 6%;
-  font-size: 1rem;
   color: #ffffff;
 }
 .header_area_title {
-  padding-top: 51px;
-  padding-left: 1em;
+  width: 100%;
+  padding-top: 15px;
   color: #ffffff;
 }
-.header_area_title_top {
+.header_area_title_wrapper {
+  display: flex;
+  width: 60%;
+  margin-top: 20px;
+}
+.header_area_title_wrapper_top {
   font-size: 1em;
   font-weight: 500;
 }
-.header_area_title_bottom {
+.header_area_title_wrapper_bottom {
   font-size: 1em;
   font-weight: 500;
 }
 .header_area_lang {
-  margin: auto 0 0 auto;
+  margin: auto 0 0 0;
   height: 45px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
@@ -241,17 +245,26 @@ p {
   color: #ffffff;
   transition: all 0.3s;
 }
-.header_nav li.selected {
-  background: #556b2f;
-  color: #ffffff;
-}
-.header_nav a {
+.header_nav li a {
   text-decoration: none;
   color: #ffffff;
   display: table-cell;
   vertical-align: middle;
 }
 
+.header-english .header_area_title {
+  padding-top: 5px;
+}
+.header-english .header_area_title p {
+  font-size: 0.5rem;
+}
+.header-english .header_area_title .br-none {
+  display: none;
+}
+.header-english .header_area_title_wrapper {
+  display: block;
+  margin: 0 0 0 20px;
+}
 .header-english .header_area_lang {
   margin: auto 0 4px auto;
   height: 45px;
@@ -279,19 +292,21 @@ p {
   font-size: 0.6rem;
 }
 .header-english .header_logo h2 {
-  width: 43%;
-  margin-top: 44px;
+  width: 70%;
+  margin-top: 10px;
   font-size: 0.7rem;
+  padding-left: 0;
 }
 
 @media screen and (min-width: 520px) and (max-width: 959px) {
   .header_area_title {
-    padding-top: 30px;
-    font-size: 0.7rem;
+    padding-top: 15px;
+    font-size: 0.6rem;
   }
   .header_area_lang {
     height: 40px;
     font-size: 0.6rem;
+    margin: auto 0 0 0;
   }
   .header_nav li {
     width: 80px;
@@ -308,22 +323,28 @@ p {
     width: 100px;
   }
   .header_logo h2 {
-    width: 30%;
     margin-top: 3%;
     padding-left: 3%;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+  }
+
+  .header_area_title_wrapper {
+    display: flex;
   }
 
   .header-english .header_area_title {
     font-size: 0.4rem;
   }
+  .header-english .header_area .br-none {
+    display: none;
+  }
   .header-english .header_logo {
     height: 130px;
   }
   .header-english .header_logo h2 {
-    width: 50%;
-    margin-top: 0px;
-    font-size: 0.8rem;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 0.7rem;
   }
   .header-english .header_nav_eng {
     font-size: 0.4rem;
@@ -332,10 +353,26 @@ p {
 @media screen and (max-width: 519px) {
   .header_area_title {
     padding: 0;
-    margin: 10px 0 5px 10px;
+    margin-left: 10px;
     font-size: 10px;
-    transform: scale(0.7);
+    transform: scale(0.5);
     transform-origin: 0 0;
+    display: flex;
+    width: 80%;
+  }
+  .header_area_title_top {
+    width: 400px;
+  }
+  .header_area_title_bottom {
+    width: 500px;
+  }
+  .header_area_title h2 {
+    margin-top: 0;
+  }
+  .header_area_title_wrapper {
+    width: 500px;
+    display: block;
+    margin-top: 0;
   }
   .header_area_lang {
     display: none;
@@ -353,7 +390,6 @@ p {
   }
   .header_logo h2 {
     width: 90%;
-    margin-top: 3%;
     padding: 0;
     font-size: 10px;
     transform: scale(0.7);
@@ -369,16 +405,31 @@ p {
     font-size: 10px;
     transform: scale(0.6);
     transform-origin: 0 0;
+    display: block;
+    margin: 5px 0 0 0;
+    width: 80%;
+  }
+  .header-english .header_area_title p {
+    width: 500px;
+  }
+  .header-english .header_area_title_wrapper {
+    margin: 0 0 0 10px;
+  }
+  .header-english .header_area .br-none {
+    display: none;
   }
   .header-english .header_logo {
-    height: 95px;
+    height: 80px;
+  }
+  .header-english .header_logo_inner {
+    padding: 0px 20px 20px 10px;
   }
   .header-english .header_logo h1 {
     margin-top: 3%;
   }
   .header-english .header_logo h2 {
-    width: 60%;
-    margin-top: 2%;
+    width: 100%;
+    margin: 0;
     font-size: 10px;
     transform: scale(0.6);
     transform-origin: 0 0;
@@ -604,10 +655,7 @@ p {
 }
 .footer .bottom_left .addr {
   font-size: 0.7em;
-  padding-left: 20px;
-  padding-top: 47px;
-  display: table;
-  vertical-align: bottom;
+  padding: 30px;
 }
 .footer .bottom_right {
   width: 500px;
@@ -637,6 +685,9 @@ p {
 }
 .footer .bottom .copyright br {
   display: none;
+}
+.footer .bottom-english .addr {
+  padding: 10px 0 0 30px;
 }
 
 @media screen and (min-width: 520px) and (max-width: 959px) {
@@ -702,10 +753,31 @@ p {
 .objective h3 {
   margin-top: 20px;
 }
-.objective_left {
-  width: calc(50% - 30px);
+.objective_area01 {
+  width: 100%;
 }
-.objective_left p {
+.objective_area01 ul {
+  margin-top: 20px;
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 10px;
+  border: 2px solid #000000;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.objective_area01 li {
+  display: flex;
+  margin-bottom: 10px;
+}
+.objective_area01 li p {
+  font-size: 0.8rem;
+  margin-right: 30px;
+}
+.objective_area02 {
+  width: 100%;
+  margin-top: 30px;
+}
+.objective_area02 p {
   font-size: 0.8rem;
   text-align: left;
 }
@@ -716,23 +788,6 @@ p {
 .objective_text p {
   font-size: 0.9rem;
   margin-bottom: 20px;
-}
-.objective_right {
-  width: calc(50% - 30px);
-}
-.objective_right ul {
-  margin-top: 20px;
-  height: 500px;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  padding: 10px;
-  border: 2px solid #000000;
-}
-.objective_right li {
-  margin-bottom: 10px;
-}
-.objective_right li p {
-  font-size: 0.8rem;
 }
 
 #home-face {
@@ -747,7 +802,7 @@ p {
 .english .objective_text p {
   text-align: justify;
 }
-.english .objective_right p {
+.english .objective_area01 p {
   text-align: justify;
 }
 
@@ -761,10 +816,10 @@ p {
     margin: 100px 10px;
     display: block;
   }
-  .objective_left {
+  .objective_area01 {
     width: 100%;
   }
-  .objective_right {
+  .objective_area02 {
     width: 100%;
     margin-top: 30px;
   }
@@ -953,7 +1008,7 @@ p {
   background: #dcdcdc;
 }
 .university_items, .university_item {
-  width: 95%;
+  width: 100%;
   margin: 30px auto;
 }
 .university_name {
@@ -1493,49 +1548,18 @@ p {
     font-size: 1.375rem;
   }
 }
-.contact {
-  width: 95%;
-}
 .contact_nav .nav09 {
   background: #556b2f;
   color: #ffffff;
 }
-
-.form {
-  margin-left: 30px;
-  width: 100%;
+.contact ul {
+  margin: 40px;
 }
-.form label {
-  font-size: 1rem;
-  width: 25%;
-  margin: 2px;
-  padding: 20px;
-  background-color: #f5f5f5;
+.contact ul li {
+  margin: 0 0 20px 100px;
 }
-.form input {
-  font-size: 1rem;
-  width: 65%;
-  border: none;
-  margin: 2px;
-  padding-left: 10px;
-  background-color: #e6e6fa;
-}
-.form textarea {
-  font-size: 1rem;
-  width: 65%;
-  border: none;
-  margin: 2px;
-  padding: 20px;
-  background-color: #e6e6fa;
-}
-.form_btn {
-  width: 150px;
-  margin: 30px 100px 30px auto;
-}
-.form_btn input {
-  background-color: #f5f5f5;
-  padding: 10px 40px;
-  width: 150px;
+.contact ul li:first-child {
+  margin-left: 50px;
 }
 
 @media screen and (min-width: 520px) and (max-width: 959px) {
