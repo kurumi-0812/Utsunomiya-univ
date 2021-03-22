@@ -1,4 +1,10 @@
 .objective {
+  &_nav {
+    .nav00 {
+      background: #556b2f;
+      color: #ffffff;
+    }
+  }
   justify-content: space-between;
 
   &.container {
@@ -67,12 +73,12 @@
   .objective {
     &_text {
       p {
-        text-align: justify;
+        // text-align: justify;
       }
     }
     &_area01 {
       p {
-        text-align: justify;
+        // text-align: justify;
       }
     }
   }

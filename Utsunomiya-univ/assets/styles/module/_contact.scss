@@ -63,12 +63,33 @@
 @include mq($breakpoint: tab) {
   .contact {
     margin: 200px 10px;
+
+    ul {
+      margin: 30px;
+      li {
+        margin: 0 0 20px 80px;
+
+        &:first-child {
+          margin-left: 40px;
+        }
+      }
+    }
   }
 }
 
 @include mq($breakpoint: sp) {
   .contact {
     margin: 100px 10px;
+    ul {
+      margin: 20px;
+      li {
+        margin: 0 0 20px 20px;
+
+        &:first-child {
+          margin-left: 10px;
+        }
+      }
+    }
     &.english {
       margin: 120px 10px;
     }
