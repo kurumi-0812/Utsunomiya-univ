@@ -133,7 +133,7 @@
 
 @include mq($breakpoint: tab) {
   .policy {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
     &_title {
       padding: 10px;
       font-size: 1.5rem;
@@ -143,9 +143,9 @@
 
 @include mq($breakpoint: sp) {
   .policy {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
     &.english {
-      margin: 120px 10px;
+      margin: 120px 10px 50px;
     }
     &_title {
       padding: 10px;

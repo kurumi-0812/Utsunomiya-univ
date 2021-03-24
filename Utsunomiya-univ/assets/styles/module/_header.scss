@@ -378,7 +378,7 @@
           width: 80%;
 
           p {
-            width: 500px;
+            width: 400px;
           }
         }
 
@@ -419,6 +419,35 @@
 
       &_english {
         background-color: $color-main;
+      }
+    }
+  }
+}
+
+@include mq($breakpoint: sp_s) {
+  // 英語版
+  .header-english {
+    .header {
+      &_area {
+        &_title {
+          p {
+            width: 300px;
+          }
+        }
+
+        .br-none {
+          display: block;
+        }
+      }
+
+      &_logo {
+        height: 90px;
+      }
+    }
+
+    .burger-menu_lang {
+      li {
+        width: 110px;
       }
     }
   }

@@ -62,7 +62,7 @@
 
 @include mq($breakpoint: tab) {
   .contact {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
 
     ul {
       margin: 30px;
@@ -79,7 +79,7 @@
 
 @include mq($breakpoint: sp) {
   .contact {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
     ul {
       margin: 20px;
       li {
@@ -91,7 +91,7 @@
       }
     }
     &.english {
-      margin: 120px 10px;
+      margin: 120px 10px 50px;
     }
   }
   .form {

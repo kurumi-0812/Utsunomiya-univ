@@ -98,18 +98,15 @@
 
 @include mq($breakpoint: tab) {
   .university {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
   }
 }
 
 @include mq($breakpoint: sp) {
   .university {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
     &.english {
-      margin: 120px 10px;
-    }
-    &_kenya {
-      width: 100%;
+      margin: 120px 10px 50px;
     }
 
     &_items,
@@ -122,6 +119,12 @@
       img {
         width: 60px;
       }
+    }
+  }
+
+  .university-english {
+    &_img_partner {
+      margin-top: 0;
     }
   }
 }

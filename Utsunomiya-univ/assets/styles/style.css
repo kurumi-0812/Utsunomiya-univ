@@ -70,7 +70,7 @@ p {
   text-align: left;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   html {
     font-size: 18px;
   }
@@ -101,9 +101,35 @@ p {
     margin-right: 20px;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   html {
     font-size: 16px;
+  }
+
+  .container {
+    margin: 50px 15px;
+  }
+
+  .c_inner {
+    margin: 0;
+  }
+
+  .c_title_m {
+    font-size: 1rem;
+  }
+
+  .c_title_s01 {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+
+  .c_title_s02 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 14px;
   }
 
   .container {
@@ -302,7 +328,7 @@ p {
   padding-left: 0;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .header_area_title {
     padding-top: 15px;
     font-size: 0.6rem;
@@ -357,7 +383,7 @@ p {
     font-size: 0.4rem;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   .header_area_title {
     padding: 0;
     margin-left: 10px;
@@ -417,7 +443,7 @@ p {
     width: 80%;
   }
   .header-english .header_area_title p {
-    width: 500px;
+    width: 400px;
   }
   .header-english .header_area_title_wrapper {
     margin: 0 0 0 10px;
@@ -451,6 +477,20 @@ p {
     background-color: #9ccb88;
   }
 }
+@media screen and (max-width: 360px) {
+  .header-english .header_area_title p {
+    width: 300px;
+  }
+  .header-english .header_area .br-none {
+    display: block;
+  }
+  .header-english .header_logo {
+    height: 90px;
+  }
+  .header-english .burger-menu_lang li {
+    width: 110px;
+  }
+}
 @media screen and (min-width: 960px) {
   .hamburger {
     display: none;
@@ -460,7 +500,7 @@ p {
     display: none;
   }
 }
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .hamburger {
     display: none;
   }
@@ -469,7 +509,7 @@ p {
     display: none;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   /* ハンバーガーボタン */
   .hamburger {
     display: block;
@@ -697,7 +737,7 @@ p {
   padding: 10px 0 0 30px;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .footer .parallax {
     height: 160px;
     background-size: 150%;
@@ -715,7 +755,7 @@ p {
     display: unset;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   .footer .parallax {
     height: 160px;
     background-size: 220%;
@@ -727,6 +767,7 @@ p {
     width: 100%;
   }
   .footer .bottom {
+    padding: 10px;
     flex-wrap: wrap;
   }
   .footer .bottom_left {
@@ -810,14 +851,14 @@ p {
   background-repeat: round;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .objective {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   .objective {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
     display: block;
   }
   .objective_area01 {
@@ -833,8 +874,10 @@ p {
     padding-top: 8%;
     padding-bottom: 8%;
   }
-  #home-face.english {
-    margin-top: 100px;
+}
+@media screen and (max-width: 360px) {
+  #home-face {
+    margin-top: 90px;
   }
 }
 .summary_nav .nav01 {
@@ -856,21 +899,27 @@ p {
   margin-bottom: 4%;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .summary {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
+  }
+  .summary figure img {
+    width: 60%;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   .summary {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
   }
   .summary.english {
-    margin: 120px 10px;
+    margin: 120px 10px 50px;
   }
   .summary ul {
     width: 80%;
     margin: 40px auto;
+  }
+  .summary figure img {
+    width: 60%;
   }
 }
 .program_nav .nav02 {
@@ -905,17 +954,17 @@ p {
   margin-left: 50px;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .program {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   .program {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
   }
   .program.english {
-    margin: 120px 10px;
+    margin: 120px 10px 50px;
   }
   .program_item01 {
     width: 100%;
@@ -950,20 +999,20 @@ p {
   text-align: justify;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .curriculum {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
   }
   .curriculum_text {
     padding: 0;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   .curriculum {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
   }
   .curriculum.english {
-    margin: 120px 10px;
+    margin: 120px 10px 50px;
   }
   .curriculum p {
     margin: 10px;
@@ -1050,20 +1099,17 @@ p {
   color: red;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .university {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   .university {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
   }
   .university.english {
-    margin: 120px 10px;
-  }
-  .university_kenya {
-    width: 100%;
+    margin: 120px 10px 50px;
   }
   .university_items, .university_item {
     width: 100%;
@@ -1071,6 +1117,10 @@ p {
   }
   .university_name img {
     width: 60px;
+  }
+
+  .university-english_img_partner {
+    margin-top: 0;
   }
 }
 .admission {
@@ -1136,17 +1186,17 @@ p {
   color: red;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .admission {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   .admission {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
   }
   .admission.english {
-    margin: 120px 10px;
+    margin: 120px 10px 50px;
   }
   .admission_application_text {
     margin-left: 30px;
@@ -1199,9 +1249,9 @@ p {
   border: 1px solid black;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .brochure {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
   }
   .brochure_iframe iframe {
     width: 90%;
@@ -1216,12 +1266,12 @@ p {
     margin-left: 50px;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   .brochure {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
   }
   .brochure.english {
-    margin: 120px 10px;
+    margin: 120px 10px 50px;
   }
   .brochure.english h2 {
     font-size: 0.8rem;
@@ -1270,20 +1320,20 @@ p {
   margin-left: 30px;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .report {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
   }
   .report_item_table {
     margin: 30px 10px 0 30px;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   .report {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
   }
   .report.english {
-    margin: 120px 10px;
+    margin: 120px 10px 50px;
   }
   .report_item_table {
     width: 100%;
@@ -1319,9 +1369,9 @@ p {
   margin: 10px;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .access {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
   }
   .access_img {
     text-align: center;
@@ -1330,12 +1380,12 @@ p {
     width: 80%;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   .access {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
   }
   .access.english {
-    margin: 120px 10px;
+    margin: 120px 10px 50px;
   }
   .access_img {
     text-align: center;
@@ -1465,21 +1515,21 @@ p {
   color: #9ccb88;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .policy {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
   }
   .policy_title {
     padding: 10px;
     font-size: 1.5rem;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   .policy {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
   }
   .policy.english {
-    margin: 120px 10px;
+    margin: 120px 10px 50px;
   }
   .policy_title {
     padding: 10px;
@@ -1531,21 +1581,21 @@ p {
   color: #9ccb88;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .site-map {
-    margin: 200px 15px;
+    margin: 200px 15px 100px;
   }
   .site-map_title {
     padding: 10px;
     font-size: 1.5rem;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   .site-map {
-    margin: 100px 15px;
+    margin: 100px 15px 50px;
   }
   .site-map.english {
-    margin: 120px 10px;
+    margin: 120px 10px 50px;
   }
   .site-map_title {
     padding: 10px;
@@ -1566,9 +1616,9 @@ p {
   margin-left: 50px;
 }
 
-@media screen and (min-width: 520px) and (max-width: 959px) {
+@media screen and (min-width: 541px) and (max-width: 959px) {
   .contact {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
   }
   .contact ul {
     margin: 30px;
@@ -1580,9 +1630,9 @@ p {
     margin-left: 40px;
   }
 }
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 540px) {
   .contact {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
   }
   .contact ul {
     margin: 20px;
@@ -1594,7 +1644,7 @@ p {
     margin-left: 10px;
   }
   .contact.english {
-    margin: 120px 10px;
+    margin: 120px 10px 50px;
   }
 
   .form {

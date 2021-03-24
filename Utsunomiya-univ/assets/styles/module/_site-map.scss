@@ -52,7 +52,7 @@
 
 @include mq($breakpoint: tab) {
   .site-map {
-    margin: 200px 15px;
+    margin: 200px 15px 100px;
     &_title {
       padding: 10px;
       font-size: 1.5rem;
@@ -62,9 +62,9 @@
 
 @include mq($breakpoint: sp) {
   .site-map {
-    margin: 100px 15px;
+    margin: 100px 15px 50px;
     &.english {
-      margin: 120px 10px;
+      margin: 120px 10px 50px;
     }
     &_title {
       padding: 10px;

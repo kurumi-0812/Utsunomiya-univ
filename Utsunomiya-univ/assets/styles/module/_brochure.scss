@@ -47,7 +47,7 @@
 
 @include mq($breakpoint: tab) {
   .brochure {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
 
     &_iframe {
       iframe {
@@ -70,9 +70,9 @@
 
 @include mq($breakpoint: sp) {
   .brochure {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
     &.english {
-      margin: 120px 10px;
+      margin: 120px 10px 50px;
       h2 {
         font-size: 0.8rem;
       }

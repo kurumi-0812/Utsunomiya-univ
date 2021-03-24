@@ -30,7 +30,7 @@
 
 @include mq($breakpoint: tab) {
   .access {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
     &_img {
       text-align: center;
 
@@ -43,9 +43,9 @@
 
 @include mq($breakpoint: sp) {
   .access {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
     &.english {
-      margin: 120px 10px;
+      margin: 120px 10px 50px;
     }
     &_img {
       text-align: center;

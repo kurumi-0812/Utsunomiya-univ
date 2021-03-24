@@ -20,7 +20,8 @@ $font-family: "游ゴシック", "Meiryo", "Hiragino Kaku Gothic ProN",
 
 //サイズ
 $breakpoints: (
-  "sp": "screen and (max-width: 519px)",
-  "tab": "screen and (min-width: 520px) and (max-width: 959px)",
+  "sp_s": "screen and (max-width: 360px)",
+  "sp": "screen and (max-width: 540px)",
+  "tab": "screen and (min-width: 541px) and (max-width: 959px)",
   "pc": "screen and (min-width: 960px)",
 );

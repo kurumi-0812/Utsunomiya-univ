@@ -42,15 +42,15 @@
 
 @include mq($breakpoint: tab) {
   .program {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
   }
 }
 
 @include mq($breakpoint: sp) {
   .program {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
     &.english {
-      margin: 120px 10px;
+      margin: 120px 10px 50px;
     }
     &_item01 {
       width: 100%;

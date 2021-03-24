@@ -36,7 +36,7 @@
 
 @include mq($breakpoint: tab) {
   .curriculum {
-    margin: 200px 10px;
+    margin: 200px 10px 100px;
     &_text {
       padding: 0;
     }
@@ -45,9 +45,9 @@
 
 @include mq($breakpoint: sp) {
   .curriculum {
-    margin: 100px 10px;
+    margin: 100px 10px 50px;
     &.english {
-      margin: 120px 10px;
+      margin: 120px 10px 50px;
     }
     p {
       margin: 10px;
