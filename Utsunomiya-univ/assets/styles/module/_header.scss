@@ -21,6 +21,7 @@
     &_inner {
       justify-content: space-between;
       padding: 10px 20px;
+      height: 100%;
 
       h1 {
         height: 50px;
@@ -34,7 +35,7 @@
       h2 {
         width: 70%;
         margin-top: 1%;
-        padding-left: 6%;
+        // padding-left: 6%;
         color: $color-text-white;
       }
     }
@@ -64,7 +65,7 @@
     }
 
     &_lang {
-      margin: auto 0 0 0;
+      margin: auto 0 4px auto;
       height: 45px;
       box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 
@@ -171,7 +172,7 @@
 
       &_title_wrapper {
         display: block;
-        margin: 0 0 0 20px;
+        margin: 0 0 0 1%;
       }
 
       &_lang {
@@ -228,11 +229,11 @@
         font-size: 0.6rem;
       }
 
-      &_lang {
-        height: 40px;
-        font-size: 0.6rem;
-        margin: auto 0 0 0;
-      }
+      // &_lang {
+      //   height: 40px;
+      //   font-size: 0.6rem;
+      //   margin: auto 0 0 0;
+      // }
     }
 
     &_nav {
@@ -260,7 +261,7 @@
 
       h2 {
         margin-top: 3%;
-        padding-left: 3%;
+        // padding-left: 3%;
         font-size: 0.6rem;
       }
     }
@@ -307,7 +308,7 @@
         padding: 0;
         margin-left: 10px;
         font-size: 10px;
-        transform: scale(0.5);
+        transform: scale(0.6);
         transform-origin: 0 0;
         display: flex;
         width: 80%;
@@ -348,7 +349,6 @@
         width: 40px;
         margin-right: 10px;
       }
-
       h2 {
         width: 90%;
         padding: 0;
@@ -396,7 +396,7 @@
           padding: 0px 20px 20px 10px;
         }
         h1 {
-          margin-top: 3%;
+          margin-top: 1%;
         }
         h2 {
           width: 100%;
@@ -425,29 +425,116 @@
 }
 
 @include mq($breakpoint: sp_s) {
+  .header {
+    &_area {
+      &_title {
+        margin-left: 10px;
+        font-size: 0.3rem;
+        display: block;
+        transform: scale(0.6);
+        transform-origin: 0 0;
+        padding-top:5%;
+
+        h2 {
+          margin-top: 0;
+        }
+      }
+
+      &_title_wrapper {
+        width: 500px;
+        display: block;
+        margin-top: 0;
+      }
+
+      &_lang {
+        display: none;
+      }
+    }
+
+    &_logo {
+      height: 80px;
+
+      &_inner {
+        padding: 0px 20px 20px 10px;
+        justify-content: left;
+      }
+
+      img {
+        width: 40px;
+        margin-right: 10px;
+      }
+      h1 {
+        margin-top: 1%;
+      }
+      h2 {
+        width: 90%;
+        font-size: 10px;
+        transform: scale(0.6);
+        transform-origin: 0 0;
+        margin-left: 10px;
+      }
+    }
+  }
+  // ナビメニューをsmartphoneで非表示
+  .header_nav {
+    display: none;
+  }
+
   // 英語版
   .header-english {
     .header {
       &_area {
         &_title {
+          font-size: 10px;
+          transform: scale(0.6);
+          transform-origin: 0 0;
+          display: block;
+          margin: 0 0 0 0;
+          width: 80%;
+
           p {
             width: 300px;
           }
         }
 
+        &_title_wrapper {
+          margin: 0 0 0 10px;
+        }
+
         .br-none {
-          display: block;
+          display: none;
         }
       }
 
       &_logo {
-        height: 90px;
+        height: 80px;
+        &_inner {
+          padding: 0px 20px 20px 10px;
+        }
+        h1 {
+          margin-top: 1%;
+        }
+        h2 {
+          width: 100%;
+          margin: 0;
+          font-size: 10px;
+          transform: scale(0.6);
+          transform-origin: 0 0;
+        }
       }
     }
 
     .burger-menu_lang {
       li {
-        width: 110px;
+        width: 140px;
+      }
+
+      &_jp {
+        background-color: rgba(0, 0, 0, 0.9);
+      }
+
+      &_english {
+        background-color: $color-main;
       }
     }
   }

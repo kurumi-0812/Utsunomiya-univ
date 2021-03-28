@@ -15,7 +15,22 @@
     margin-top: 20px;
   }
 
+  &_area00 {
+    width: 100%;
+
+    p {
+      text-align: center;
+    }
+
+    img {
+      max-width: 389px;
+      width: 100%;
+      height: auto;
+    }
+  }
+
   &_area01 {
+    margin-top: 30px;
     width: 100%;
 
     ul {
@@ -69,20 +84,20 @@
   background-repeat: round;
 }
 
-.english {
-  .objective {
-    &_text {
-      p {
-        // text-align: justify;
-      }
-    }
-    &_area01 {
-      p {
-        // text-align: justify;
-      }
-    }
-  }
-}
+// .english {
+//   .objective {
+//     &_text {
+//       // p {
+//       //   // text-align: justify;
+//       // }
+//     }
+//     &_area01 {
+//       p {
+//         // text-align: justify;
+//       }
+//     }
+//   }
+// }
 
 @include mq($breakpoint: tab) {
   .objective {
