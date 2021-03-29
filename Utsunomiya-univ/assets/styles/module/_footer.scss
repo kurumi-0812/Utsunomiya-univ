@@ -234,3 +234,61 @@
     }
   }
 }
+
+@include mq($breakpoint: sp_s) {
+  .footer {
+    .parallax {
+      height: 160px;
+      background-size: 220%;
+      background-position: center top -0.773px;
+    }
+
+    .banners {
+      .banner {
+        max-width: 280px;
+        margin: auto;
+        width: 100%;
+      }
+    }
+    .bottom {
+      padding: 10px;
+      flex-wrap: wrap;
+
+      &_left {
+        width: 100%;
+        margin-bottom: 5%;
+
+        .logo {
+          img {
+            width: 90px;
+          }
+        }
+
+        .addr {
+          padding: 12px;
+        }
+      }
+
+      &_right {
+        width: 100%;
+
+        nav#nav-footer {
+          text-align: left;
+          margin-bottom: 10px;
+          margin-top: unset;
+
+          ul {
+            display: table-cell;
+          }
+        }
+
+        .copyright {
+          text-align: left;
+          br {
+            display: unset;
+          }
+        }
+      }
+    }
+  }
+}
