@@ -72,3 +72,16 @@
     }
   }
 }
+
+@include mq($breakpoint: sp_s) {
+  .site-map {
+    margin: 100px 15px 50px;
+    &.english {
+      margin: 120px 10px 50px;
+    }
+    &_title {
+      padding: 10px;
+      font-size: 1.375rem;
+    }
+  }
+}

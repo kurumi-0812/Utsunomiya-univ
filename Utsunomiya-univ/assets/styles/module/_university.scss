@@ -128,3 +128,30 @@
     }
   }
 }
+
+@include mq($breakpoint: sp_s) {
+  .university {
+    margin: 100px 10px 50px;
+    &.english {
+      margin: 120px 10px 50px;
+    }
+
+    &_items,
+    &_item {
+      width: 100%;
+      margin: 30px auto;
+    }
+
+    &_name {
+      img {
+        width: 60px;
+      }
+    }
+  }
+
+  .university-english {
+    &_img_partner {
+      margin-top: 0;
+    }
+  }
+}

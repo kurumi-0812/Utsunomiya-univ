@@ -1175,6 +1175,21 @@ p {
     width: 60%;
   }
 }
+@media screen and (max-width: 360px) {
+  .summary {
+    margin: 100px 10px 50px;
+  }
+  .summary.english {
+    margin: 120px 10px 50px;
+  }
+  .summary ul {
+    width: 80%;
+    margin: 40px auto;
+  }
+  .summary figure img {
+    width: 60%;
+  }
+}
 .program_nav .nav02 {
   background: #556b2f;
   color: #ffffff;
@@ -1230,6 +1245,24 @@ p {
     width: 100%;
   }
 }
+@media screen and (max-width: 360px) {
+  .program {
+    margin: 100px 10px 50px;
+  }
+  .program.english {
+    margin: 120px 10px 50px;
+  }
+  .program_item01 {
+    width: 100%;
+    padding: 20px 10px 15px;
+  }
+  .program_item01 p {
+    margin: 10px 20px;
+  }
+  .program_item02 {
+    width: 100%;
+  }
+}
 .curriculum_nav .nav03 {
   background: #556b2f;
   color: #ffffff;
@@ -1261,6 +1294,24 @@ p {
   }
 }
 @media screen and (min-width: 361px) and (max-width: 767px) {
+  .curriculum {
+    margin: 100px 10px 50px;
+  }
+  .curriculum.english {
+    margin: 120px 10px 50px;
+  }
+  .curriculum p {
+    margin: 10px;
+    font-size: 0.9rem;
+  }
+  .curriculum ul {
+    margin-left: 20px;
+  }
+  .curriculum_text {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 360px) {
   .curriculum {
     margin: 100px 10px 50px;
   }
@@ -1376,6 +1427,25 @@ p {
     margin-top: 0;
   }
 }
+@media screen and (max-width: 360px) {
+  .university {
+    margin: 100px 10px 50px;
+  }
+  .university.english {
+    margin: 120px 10px 50px;
+  }
+  .university_items, .university_item {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .university_name img {
+    width: 60px;
+  }
+
+  .university-english_img_partner {
+    margin-top: 0;
+  }
+}
 .admission {
   width: 95%;
 }
@@ -1445,6 +1515,27 @@ p {
   }
 }
 @media screen and (min-width: 361px) and (max-width: 767px) {
+  .admission {
+    margin: 100px 10px 50px;
+  }
+  .admission.english {
+    margin: 120px 10px 50px;
+  }
+  .admission_application_text {
+    margin-left: 30px;
+  }
+  .admission_faq_ans {
+    margin: 30px 20px 20px 20px;
+  }
+
+  .english .admission_item_table {
+    font-size: 0.8rem;
+  }
+  .english .admission_item_table_list li {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 360px) {
   .admission {
     margin: 100px 10px 50px;
   }
@@ -1541,6 +1632,28 @@ p {
     margin-left: 0px;
   }
 }
+@media screen and (max-width: 360px) {
+  .brochure {
+    margin: 100px 10px 50px;
+  }
+  .brochure.english {
+    margin: 120px 10px 50px;
+  }
+  .brochure.english h2 {
+    font-size: 0.8rem;
+  }
+  .brochure_iframe iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .brochure_pdf {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .brochure_pdf img {
+    margin-left: 0px;
+  }
+}
 .report_nav .nav07 {
   background: #556b2f;
   color: #ffffff;
@@ -1601,6 +1714,26 @@ p {
     margin-left: 0px;
   }
 }
+@media screen and (max-width: 360px) {
+  .report {
+    margin: 100px 10px 50px;
+  }
+  .report.english {
+    margin: 120px 10px 50px;
+  }
+  .report_item_table {
+    width: 100%;
+    margin: 30px 0;
+    font-size: 0.7rem;
+  }
+
+  .report-english h3 {
+    font-size: 0.8rem;
+  }
+  .report-english_list {
+    margin-left: 0px;
+  }
+}
 .access_nav .nav08 {
   background: #556b2f;
   color: #ffffff;
@@ -1634,6 +1767,20 @@ p {
   }
 }
 @media screen and (min-width: 361px) and (max-width: 767px) {
+  .access {
+    margin: 100px 10px 50px;
+  }
+  .access.english {
+    margin: 120px 10px 50px;
+  }
+  .access_img {
+    text-align: center;
+  }
+  .access_img img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 360px) {
   .access {
     margin: 100px 10px 50px;
   }
@@ -1789,6 +1936,18 @@ p {
     font-size: 1.375rem;
   }
 }
+@media screen and (max-width: 360px) {
+  .policy {
+    margin: 100px 10px 50px;
+  }
+  .policy.english {
+    margin: 120px 10px 50px;
+  }
+  .policy_title {
+    padding: 10px;
+    font-size: 1.375rem;
+  }
+}
 .site-map {
   margin: 18% auto;
 }
@@ -1855,6 +2014,18 @@ p {
     font-size: 1.375rem;
   }
 }
+@media screen and (max-width: 360px) {
+  .site-map {
+    margin: 100px 15px 50px;
+  }
+  .site-map.english {
+    margin: 120px 10px 50px;
+  }
+  .site-map_title {
+    padding: 10px;
+    font-size: 1.375rem;
+  }
+}
 .contact_nav .nav09 {
   background: #556b2f;
   color: #ffffff;
@@ -1884,6 +2055,52 @@ p {
   }
 }
 @media screen and (min-width: 361px) and (max-width: 767px) {
+  .contact {
+    margin: 100px 10px 50px;
+  }
+  .contact ul {
+    margin: 20px;
+  }
+  .contact ul li {
+    margin: 0 0 20px 20px;
+  }
+  .contact ul li:first-child {
+    margin-left: 10px;
+  }
+  .contact.english {
+    margin: 120px 10px 50px;
+  }
+
+  .form {
+    margin-left: 0px;
+  }
+  .form label {
+    font-size: 0.6rem;
+    padding: 10px;
+    width: 30%;
+  }
+  .form label:nth-child(3),
+.form :nth-child(4) {
+    font-size: 0.4rem;
+  }
+  .form input {
+    font-size: 0.6rem;
+  }
+  .form textarea {
+    font-size: 0.6rem;
+    padding: 10px;
+  }
+  .form_btn {
+    width: 150px;
+    margin: 20px auto;
+  }
+  .form_btn input {
+    background-color: #f5f5f5;
+    padding: 10px 40px;
+    width: 150px;
+  }
+}
+@media screen and (max-width: 360px) {
   .contact {
     margin: 100px 10px 50px;
   }

@@ -66,3 +66,24 @@
     }
   }
 }
+
+@include mq($breakpoint: sp_s) {
+  .program {
+    margin: 100px 10px 50px;
+    &.english {
+      margin: 120px 10px 50px;
+    }
+    &_item01 {
+      width: 100%;
+      padding: 20px 10px 15px;
+
+      p {
+        margin: 10px 20px;
+      }
+    }
+
+    &_item02 {
+      width: 100%;
+    }
+  }
+}

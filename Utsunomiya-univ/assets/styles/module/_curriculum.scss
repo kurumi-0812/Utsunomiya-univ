@@ -62,3 +62,23 @@
     }
   }
 }
+
+@include mq($breakpoint: sp_s) {
+  .curriculum {
+    margin: 100px 10px 50px;
+    &.english {
+      margin: 120px 10px 50px;
+    }
+    p {
+      margin: 10px;
+      font-size: 0.9rem;
+    }
+    ul {
+      margin-left: 20px;
+    }
+
+    &_text {
+      padding: 0;
+    }
+  }
+}

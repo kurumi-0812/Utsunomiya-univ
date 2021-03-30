@@ -115,3 +115,32 @@
     }
   }
 }
+
+@include mq($breakpoint: sp_s) {
+  .admission {
+    margin: 100px 10px 50px;
+    &.english {
+      margin: 120px 10px 50px;
+    }
+    &_application {
+      &_text {
+        margin-left: 30px;
+      }
+    }
+    &_faq_ans {
+      margin: 30px 20px 20px 20px;
+    }
+  }
+
+  .english {
+    .admission_item_table {
+      font-size: 0.8rem;
+
+      &_list {
+        li {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

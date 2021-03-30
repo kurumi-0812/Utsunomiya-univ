@@ -129,3 +129,56 @@
     }
   }
 }
+
+@include mq($breakpoint: sp_s) {
+  .contact {
+    margin: 100px 10px 50px;
+    ul {
+      margin: 20px;
+      li {
+        margin: 0 0 20px 20px;
+
+        &:first-child {
+          margin-left: 10px;
+        }
+      }
+    }
+    &.english {
+      margin: 120px 10px 50px;
+    }
+  }
+  .form {
+    margin-left: 0px;
+
+    label {
+      font-size: 0.6rem;
+      padding: 10px;
+      width: 30%;
+    }
+
+    label:nth-child(3),
+    :nth-child(4) {
+      font-size: 0.4rem;
+    }
+
+    input {
+      font-size: 0.6rem;
+    }
+
+    textarea {
+      font-size: 0.6rem;
+      padding: 10px;
+    }
+
+    &_btn {
+      width: 150px;
+      margin: 20px auto;
+
+      input {
+        background-color: #f5f5f5;
+        padding: 10px 40px;
+        width: 150px;
+      }
+    }
+  }
+}

@@ -56,3 +56,19 @@
     }
   }
 }
+
+@include mq($breakpoint: sp_s) {
+  .access {
+    margin: 100px 10px 50px;
+    &.english {
+      margin: 120px 10px 50px;
+    }
+    &_img {
+      text-align: center;
+
+      img {
+        width: 80%;
+      }
+    }
+  }
+}
